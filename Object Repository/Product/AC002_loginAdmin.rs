@@ -1,33 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebServiceRequestEntity>
    <description></description>
-   <name>UpdateProfile</name>
+   <name>AC002_loginAdmin</name>
    <tag></tag>
-   <elementGuidId>4de9fba6-b9f8-401e-bb70-0f55dc153dcc</elementGuidId>
+   <elementGuidId>7a73be6f-79d9-4ec8-a6e7-dbf3b8ece558</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <connectionTimeout>-1</connectionTimeout>
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
-   <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n    \&quot;name\&quot;:\&quot;Ariesta New\&quot;,\n    \&quot;email\&quot;:\&quot;anisa@nyakit.in\&quot;\n}&quot;,
-  &quot;contentType&quot;: &quot;application/json&quot;,
-  &quot;charset&quot;: &quot;UTF-8&quot;
-}</httpBodyContent>
-   <httpBodyType>text</httpBodyType>
+   <httpBodyContent></httpBodyContent>
+   <httpBodyType></httpBodyType>
    <httpHeaderProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>Content-Type</name>
+      <name>Authorization</name>
       <type>Main</type>
-      <value>application/json</value>
-      <webElementGuid>09028c96-5620-4f65-8177-c0da03e03999</webElementGuid>
+      <value>Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzNzc5ZjFkZjhiNjZiZjFiZTYzY2YxYSIsInJvbGUiOiJ1c2VyIiwiZXhwIjoxNjY5MjU0NTc2fQ.L_jbxv-OtsbQD440pBlVmHDHNtbkOD9XpXEUbWSNSvU</value>
+      <webElementGuid>44c8cf99-660c-4589-8291-baddc0ba2000</webElementGuid>
    </httpHeaderProperties>
    <katalonVersion>8.3.0</katalonVersion>
    <maxResponseSize>-1</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
-   <restRequestMethod>PUT</restRequestMethod>
-   <restUrl>https://payoll-api.nyakit.in/api/v1/user/profile</restUrl>
+   <restRequestMethod>GET</restRequestMethod>
+   <restUrl>https://payoll-api.nyakit.in/api/v1/user/prof</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>

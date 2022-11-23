@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebServiceRequestEntity>
    <description></description>
-   <name>AA025_ResetPassword</name>
+   <name>AD009_UpdateUser</name>
    <tag></tag>
-   <elementGuidId>6775a1a0-9af2-4fec-878c-cd10aff8b294</elementGuidId>
+   <elementGuidId>a73438fb-a1f5-416b-868c-7a3a1f0d9c56</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <connectionTimeout>-1</connectionTimeout>
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n    \&quot;email\&quot;:\&quot;anisa@nyakit.in\&quot;,\n    \&quot;otp\&quot;:\&quot;148310\&quot;,\n    \&quot;password\&quot;:\&quot;@Ganteng123\&quot;\n}&quot;,
+  &quot;text&quot;: &quot;{\n    \&quot;email\&quot;:\&quot;ariesta@nyakit.in\&quot;,\n    \&quot;name\&quot;:\&quot;Ariesta Newxx\&quot;,\n    \&quot;role\&quot;:\&quot;admin\&quot;,\n    \&quot;status\&quot;:\&quot;verified\&quot;,\n    \&quot;is_activated\&quot;:true\n}&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>
@@ -21,21 +21,21 @@
       <name>Content-Type</name>
       <type>Main</type>
       <value>application/json</value>
-      <webElementGuid>1a37e96f-a8f4-459c-a393-10dc16cc1872</webElementGuid>
+      <webElementGuid>cb6f6ef2-9197-4754-bb2f-972ec0a39c47</webElementGuid>
    </httpHeaderProperties>
    <httpHeaderProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>Authorization</name>
       <type>Main</type>
-      <value>Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzNzc5ZjFkZjhiNjZiZjFiZTYzY2YxYSIsInJvbGUiOiJ1c2VyIiwiZXhwIjoxNjY5MjU0NTc2fQ.L_jbxv-OtsbQD440pBlVmHDHNtbkOD9XpXEUbWSNSvU</value>
-      <webElementGuid>ae1dd0e4-a234-468f-8be9-c5ac2d2022bf</webElementGuid>
+      <value>Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzNzkxM2Y5YjY0ODUzZDZhMDQ0MTQ4MyIsInJvbGUiOiJhZG1pbiIsImV4cCI6MTY2OTI1ODU4NX0.ADls5oao_QZNzHnkpA5oKNHctZwoCYeqjpv6oYAsXsQ</value>
+      <webElementGuid>e37df76f-7769-4e7c-8aa4-34c64bd74136</webElementGuid>
    </httpHeaderProperties>
    <katalonVersion>8.3.0</katalonVersion>
    <maxResponseSize>-1</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
-   <restRequestMethod>POST</restRequestMethod>
-   <restUrl>https://payoll-api.nyakit.in/api/v1/user/reset-password</restUrl>
+   <restRequestMethod>PUT</restRequestMethod>
+   <restUrl>https://payoll-api.nyakit.in/api/v1/user/:id</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>

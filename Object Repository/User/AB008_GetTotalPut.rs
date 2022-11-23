@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebServiceRequestEntity>
    <description></description>
-   <name>loginAdmin</name>
+   <name>AB008_GetTotalPut</name>
    <tag></tag>
-   <elementGuidId>7a73be6f-79d9-4ec8-a6e7-dbf3b8ece558</elementGuidId>
+   <elementGuidId>49fce788-5bd4-456c-9120-7da48e2bf864</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <connectionTimeout>-1</connectionTimeout>
@@ -14,8 +14,8 @@
    <katalonVersion>8.3.0</katalonVersion>
    <maxResponseSize>-1</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
-   <restRequestMethod>GET</restRequestMethod>
-   <restUrl>https://payoll-api.nyakit.in/api/v1/user/profile</restUrl>
+   <restRequestMethod>PUT</restRequestMethod>
+   <restUrl>https://payoll-api.nyakit.in/api/v1/user/count</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>
