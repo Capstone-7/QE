@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebServiceRequestEntity>
    <description></description>
-   <name>verifyEmail</name>
+   <name>AA014_ReqLinkBod</name>
    <tag></tag>
-   <elementGuidId>b86008ba-da9d-42fd-8cf6-f64fbfce6e58</elementGuidId>
+   <elementGuidId>8bd40c41-af11-4bdc-9138-f6a62110ee96</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <connectionTimeout>-1</connectionTimeout>
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n    \&quot;email\&quot;:\&quot;anisa@nyakit.in\&quot;,\n    \&quot;otp\&quot;:\&quot;729182\&quot;\n}&quot;,
+  &quot;text&quot;: &quot;{\n    \&quot;email\&quot;:\&quot;anisa@nyakit.in\&quot;,\n    \&quot;scope\&quot;:\&quot;\&quot;\n}&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>
@@ -21,21 +21,13 @@
       <name>Content-Type</name>
       <type>Main</type>
       <value>application/json</value>
-      <webElementGuid>a03f7710-8891-40da-94f0-e5337d94820e</webElementGuid>
-   </httpHeaderProperties>
-   <httpHeaderProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>Authorization</name>
-      <type>Main</type>
-      <value>Bearer 729182</value>
-      <webElementGuid>57739e84-863f-4eb1-b6e3-7f10f593c045</webElementGuid>
+      <webElementGuid>65ac5168-d510-4774-b921-e58602d15631</webElementGuid>
    </httpHeaderProperties>
    <katalonVersion>8.3.0</katalonVersion>
    <maxResponseSize>-1</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
    <restRequestMethod>POST</restRequestMethod>
-   <restUrl>https://payoll-api.nyakit.in/api/v1/user/verify-email</restUrl>
+   <restUrl>https://payoll-api.nyakit.in/api/v1/user/request-o</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>

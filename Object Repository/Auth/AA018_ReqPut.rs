@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebServiceRequestEntity>
    <description></description>
-   <name>ResetPassword</name>
+   <name>AA018_ReqPut</name>
    <tag></tag>
-   <elementGuidId>6775a1a0-9af2-4fec-878c-cd10aff8b294</elementGuidId>
+   <elementGuidId>a31049b8-287e-4dde-873d-82a6fbd8c9fc</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <connectionTimeout>-1</connectionTimeout>
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n    \&quot;email\&quot;:\&quot;anisa@nyakit.in\&quot;,\n    \&quot;otp\&quot;:\&quot;148310\&quot;,\n    \&quot;password\&quot;:\&quot;@Ganteng123\&quot;\n}&quot;,
+  &quot;text&quot;: &quot;{\n    \&quot;email\&quot;:\&quot;anisa@nyakit.in\&quot;,\n    \&quot;password\&quot;:\&quot;@Ganteng123\&quot;\n}&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>
@@ -21,13 +21,13 @@
       <name>Content-Type</name>
       <type>Main</type>
       <value>application/json</value>
-      <webElementGuid>1a37e96f-a8f4-459c-a393-10dc16cc1872</webElementGuid>
+      <webElementGuid>724e80b4-de7a-436f-b610-93028791df91</webElementGuid>
    </httpHeaderProperties>
    <katalonVersion>8.3.0</katalonVersion>
    <maxResponseSize>-1</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
-   <restRequestMethod>POST</restRequestMethod>
-   <restUrl>https://payoll-api.nyakit.in/api/v1/user/reset-password</restUrl>
+   <restRequestMethod>PUT</restRequestMethod>
+   <restUrl>https://payoll-api.nyakit.in/api/v1/user/request-otp</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>
