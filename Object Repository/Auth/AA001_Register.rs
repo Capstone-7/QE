@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebServiceRequestEntity>
    <description></description>
-   <name>Register</name>
+   <name>AA001_Register</name>
    <tag></tag>
    <elementGuidId>86163a24-e9e9-4dbc-8793-31bfa100cb8a</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>

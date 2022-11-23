@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebServiceRequestEntity>
    <description></description>
-   <name>RequestOTP</name>
+   <name>AA010_LogBod</name>
    <tag></tag>
-   <elementGuidId>5b1549f4-e314-44e3-a3c4-9424dd9a16d6</elementGuidId>
+   <elementGuidId>bbafca0a-3801-4116-a236-272bafa96f19</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <connectionTimeout>-1</connectionTimeout>
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n    \&quot;email\&quot;:\&quot;anisa@nyakit.in\&quot;,\n    \&quot;scope\&quot;:\&quot;reset-password\&quot;\n}&quot;,
+  &quot;text&quot;: &quot;{\n    \&quot;email\&quot;:\&quot;anisa@nyakit.in\&quot;,\n    \&quot;password\&quot;:\&quot;@Ganteng\&quot;\n}&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>
@@ -21,13 +21,13 @@
       <name>Content-Type</name>
       <type>Main</type>
       <value>application/json</value>
-      <webElementGuid>fab123e0-7084-428c-8be8-0b0095b30cfe</webElementGuid>
+      <webElementGuid>e68780dc-14f0-4c41-a8a2-c77e0e11b509</webElementGuid>
    </httpHeaderProperties>
    <katalonVersion>8.3.0</katalonVersion>
    <maxResponseSize>-1</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
    <restRequestMethod>POST</restRequestMethod>
-   <restUrl>https://payoll-api.nyakit.in/api/v1/user/request-otp</restUrl>
+   <restUrl>https://payoll-api.nyakit.in/api/v1/user/login</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>
