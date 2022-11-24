@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebServiceRequestEntity>
    <description></description>
-   <name>profile</name>
+   <name>AD017_DeleteIDPost</name>
    <tag></tag>
-   <elementGuidId>78557fc5-6dfc-44c4-a157-5388ab6ebe22</elementGuidId>
+   <elementGuidId>095697d1-d08f-4bee-8ca7-754407b3eaaa</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <connectionTimeout>-1</connectionTimeout>
@@ -11,19 +11,11 @@
    <httpBody></httpBody>
    <httpBodyContent></httpBodyContent>
    <httpBodyType></httpBodyType>
-   <httpHeaderProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>Authorization</name>
-      <type>Main</type>
-      <value>Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzNzc5ZjFkZjhiNjZiZjFiZTYzY2YxYSIsInJvbGUiOiJ1c2VyIiwiZXhwIjoxNjY4OTk5MDg4fQ.GuKfiPt1BOHENB2OsoG85-zuqwk8hX1ugqzFvZ-93AE</value>
-      <webElementGuid>ba85f8b1-4d8f-4ebe-b30f-70c34828d77b</webElementGuid>
-   </httpHeaderProperties>
    <katalonVersion>8.3.0</katalonVersion>
    <maxResponseSize>-1</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
-   <restRequestMethod>GET</restRequestMethod>
-   <restUrl>https://payoll-api.nyakit.in/api/v1/user/profile</restUrl>
+   <restRequestMethod>POST</restRequestMethod>
+   <restUrl>https://payoll-api.nyakit.in/api/v1/user/:id</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>

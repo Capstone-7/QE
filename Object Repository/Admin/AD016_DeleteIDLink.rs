@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebServiceRequestEntity>
    <description></description>
-   <name>AB005_GetTotalUser</name>
+   <name>AD016_DeleteIDLink</name>
    <tag></tag>
-   <elementGuidId>975a0c44-531b-4220-b0fb-04c0eac60921</elementGuidId>
+   <elementGuidId>715aa6f4-c48c-40e0-9280-ef81e2921e4a</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <connectionTimeout>-1</connectionTimeout>
@@ -17,13 +17,13 @@
       <name>Authorization</name>
       <type>Main</type>
       <value>Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzN2UzMjlmZTllNjFhYTIyNmYzYmNkZSIsInJvbGUiOiJhZG1pbiIsImV4cCI6MTY2OTMxNTYxOX0.zIjR_1x9PV7ZokGTYoN8OX25nujNKbZr6XTkYoDem68</value>
-      <webElementGuid>891a3e32-8e00-4363-bdd9-702e3f2ff6d7</webElementGuid>
+      <webElementGuid>7cafd9c6-89c3-45eb-bdba-0db05432da76</webElementGuid>
    </httpHeaderProperties>
    <katalonVersion>8.3.0</katalonVersion>
    <maxResponseSize>-1</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
-   <restRequestMethod>GET</restRequestMethod>
-   <restUrl>https://payoll-api.nyakit.in/api/v1/user/count</restUrl>
+   <restRequestMethod>DELETE</restRequestMethod>
+   <restUrl>https://payoll-api.nyakit.in/api/v1/user/63778c1e40964d</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>

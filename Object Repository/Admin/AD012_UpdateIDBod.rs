@@ -1,29 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebServiceRequestEntity>
    <description></description>
-   <name>AB005_GetTotalUser</name>
+   <name>AD012_UpdateIDBod</name>
    <tag></tag>
-   <elementGuidId>975a0c44-531b-4220-b0fb-04c0eac60921</elementGuidId>
+   <elementGuidId>c1194296-329c-4219-91a5-7514f5e6f492</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <connectionTimeout>-1</connectionTimeout>
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
-   <httpBodyContent></httpBodyContent>
-   <httpBodyType></httpBodyType>
+   <httpBodyContent>{
+  &quot;text&quot;: &quot;{\n    \&quot;email\&quot;:\&quot;ariesta@nyakit\&quot;,\n    \&quot;name\&quot;:\&quot;Ariesta Newxx\&quot;,\n    \&quot;role\&quot;:\&quot;admin\&quot;,\n    \&quot;status\&quot;:\&quot;verified\&quot;,\n    \&quot;is_activated\&quot;:true\n}&quot;,
+  &quot;contentType&quot;: &quot;application/json&quot;,
+  &quot;charset&quot;: &quot;UTF-8&quot;
+}</httpBodyContent>
+   <httpBodyType>text</httpBodyType>
    <httpHeaderProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>Authorization</name>
+      <name>Content-Type</name>
       <type>Main</type>
-      <value>Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzN2UzMjlmZTllNjFhYTIyNmYzYmNkZSIsInJvbGUiOiJhZG1pbiIsImV4cCI6MTY2OTMxNTYxOX0.zIjR_1x9PV7ZokGTYoN8OX25nujNKbZr6XTkYoDem68</value>
-      <webElementGuid>891a3e32-8e00-4363-bdd9-702e3f2ff6d7</webElementGuid>
+      <value>application/json</value>
+      <webElementGuid>dd4bbe6e-40cd-45c1-8012-a5c13aa7859f</webElementGuid>
    </httpHeaderProperties>
    <katalonVersion>8.3.0</katalonVersion>
    <maxResponseSize>-1</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
-   <restRequestMethod>GET</restRequestMethod>
-   <restUrl>https://payoll-api.nyakit.in/api/v1/user/count</restUrl>
+   <restRequestMethod>PUT</restRequestMethod>
+   <restUrl>https://payoll-api.nyakit.in/api/v1/user/:id</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>

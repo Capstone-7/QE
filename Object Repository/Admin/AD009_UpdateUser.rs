@@ -28,14 +28,14 @@
       <matchCondition>equals</matchCondition>
       <name>Authorization</name>
       <type>Main</type>
-      <value>Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzNzkxM2Y5YjY0ODUzZDZhMDQ0MTQ4MyIsInJvbGUiOiJhZG1pbiIsImV4cCI6MTY2OTI1ODU4NX0.ADls5oao_QZNzHnkpA5oKNHctZwoCYeqjpv6oYAsXsQ</value>
-      <webElementGuid>e37df76f-7769-4e7c-8aa4-34c64bd74136</webElementGuid>
+      <value>Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzN2UzMjlmZTllNjFhYTIyNmYzYmNkZSIsInJvbGUiOiJhZG1pbiIsImV4cCI6MTY2OTMxNTYxOX0.zIjR_1x9PV7ZokGTYoN8OX25nujNKbZr6XTkYoDem68</value>
+      <webElementGuid>25e426a0-fae9-4463-90c0-fbdf88068b7a</webElementGuid>
    </httpHeaderProperties>
    <katalonVersion>8.3.0</katalonVersion>
    <maxResponseSize>-1</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
    <restRequestMethod>PUT</restRequestMethod>
-   <restUrl>https://payoll-api.nyakit.in/api/v1/user/:id</restUrl>
+   <restUrl>https://payoll-api.nyakit.in/api/v1/user/63778c1e40964de3b6ac4015</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>
