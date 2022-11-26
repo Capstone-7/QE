@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TCAA001_Register</name>
+   <name>AA001_Register</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>0a793dd6-f420-4298-895a-ee85889598ad</testCaseGuid>
+   <testCaseGuid>9f1b6580-9744-4e7b-b3e7-a86490d7dedd</testCaseGuid>
 </TestCaseEntity>
