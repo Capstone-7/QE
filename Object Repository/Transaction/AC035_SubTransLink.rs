@@ -1,29 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebServiceRequestEntity>
    <description></description>
-   <name>AC013_TransID</name>
+   <name>AC035_SubTransLink</name>
    <tag></tag>
-   <elementGuidId>53217e9c-0376-4acc-8f79-e433de4c9cfb</elementGuidId>
+   <elementGuidId>84182ad0-a800-4c2f-9fb9-789ac82ec54d</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <connectionTimeout>-1</connectionTimeout>
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
-   <httpBodyContent></httpBodyContent>
-   <httpBodyType></httpBodyType>
+   <httpBodyContent>{
+  &quot;text&quot;: &quot;{\n  \&quot;customer_id\&quot;: \&quot;08123909999\&quot;,\n  \&quot;product_code\&quot;: \&quot;xldata100\&quot;,\n  \&quot;success_redirect_url\&quot;: \&quot;https://ariesta.club/success\&quot;,\n  \&quot;failure_redirect_url\&quot;: \&quot;https://ariesta.club/fail\&quot;\n}&quot;,
+  &quot;contentType&quot;: &quot;application/json&quot;,
+  &quot;charset&quot;: &quot;UTF-8&quot;
+}</httpBodyContent>
+   <httpBodyType>text</httpBodyType>
    <httpHeaderProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>Authorization</name>
+      <name>Content-Type</name>
       <type>Main</type>
-      <value>Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzN2UzMjlmZTllNjFhYTIyNmYzYmNkZSIsInJvbGUiOiJhZG1pbiIsImV4cCI6MTY3MDAyNzIzMH0.zxMKvk7E6FcdjrgFHM3FvmcyS9p7hWKiD-ePxNi2Uy4</value>
-      <webElementGuid>b0089721-4a29-40b2-a1f2-198da69a9978</webElementGuid>
+      <value>application/json</value>
+      <webElementGuid>a01d0f4b-87e5-41c4-b439-5131d0b6160b</webElementGuid>
    </httpHeaderProperties>
    <katalonVersion>8.3.0</katalonVersion>
    <maxResponseSize>-1</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
-   <restRequestMethod>GET</restRequestMethod>
-   <restUrl>https://payoll-api.nyakit.in/api/v1/transaction/history/637fd50e48bc526a121d11e4</restUrl>
+   <restRequestMethod>POST</restRequestMethod>
+   <restUrl>https://payoll-api.nyakit.in/api/v1/transaction/sub</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>

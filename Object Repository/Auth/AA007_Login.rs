@@ -36,6 +36,13 @@
    <soapServiceFunction></soapServiceFunction>
    <socketTimeout>-1</socketTimeout>
    <useServiceInfoFromWsdl>true</useServiceInfoFromWsdl>
+   <variables>
+      <defaultValue>'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzN2UzMjlmZTllNjFhYTIyNmYzYmNkZSIsInJvbGUiOiJhZG1pbiIsImV4cCI6MTY3MDAyNzIzMH0.zxMKvk7E6FcdjrgFHM3FvmcyS9p7hWKiD-ePxNi2Uy4'</defaultValue>
+      <description></description>
+      <id>571c37c3-8ce1-4c56-8f08-28a295e9bd7c</id>
+      <masked>false</masked>
+      <name>variable</name>
+   </variables>
    <verificationScript>import static org.assertj.core.api.Assertions.*
 
 import com.kms.katalon.core.testobject.RequestObject

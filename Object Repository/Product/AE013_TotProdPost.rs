@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebServiceRequestEntity>
    <description></description>
-   <name>AC013_TransID</name>
+   <name>AE013_TotProdPost</name>
    <tag></tag>
-   <elementGuidId>53217e9c-0376-4acc-8f79-e433de4c9cfb</elementGuidId>
+   <elementGuidId>7068c534-f80e-4bbb-a48a-0763040f20cf</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <connectionTimeout>-1</connectionTimeout>
@@ -16,14 +16,14 @@
       <matchCondition>equals</matchCondition>
       <name>Authorization</name>
       <type>Main</type>
-      <value>Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzN2UzMjlmZTllNjFhYTIyNmYzYmNkZSIsInJvbGUiOiJhZG1pbiIsImV4cCI6MTY3MDAyNzIzMH0.zxMKvk7E6FcdjrgFHM3FvmcyS9p7hWKiD-ePxNi2Uy4</value>
-      <webElementGuid>b0089721-4a29-40b2-a1f2-198da69a9978</webElementGuid>
+      <value>Bearer ${GlobalVariable.globalVar}</value>
+      <webElementGuid>a2f2e297-b844-4c12-bcb2-8f7b9fb6c2e3</webElementGuid>
    </httpHeaderProperties>
    <katalonVersion>8.3.0</katalonVersion>
    <maxResponseSize>-1</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
-   <restRequestMethod>GET</restRequestMethod>
-   <restUrl>https://payoll-api.nyakit.in/api/v1/transaction/history/637fd50e48bc526a121d11e4</restUrl>
+   <restRequestMethod>POST</restRequestMethod>
+   <restUrl>https://payoll-api.nyakit.in/api/v1/product/count</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>

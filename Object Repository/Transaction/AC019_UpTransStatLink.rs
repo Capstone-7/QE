@@ -23,11 +23,19 @@
       <value>application/json</value>
       <webElementGuid>473ff068-2293-4a1f-a072-407c1e2d7225</webElementGuid>
    </httpHeaderProperties>
+   <httpHeaderProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>Authorization</name>
+      <type>Main</type>
+      <value>Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzN2UzMjlmZTllNjFhYTIyNmYzYmNkZSIsInJvbGUiOiJhZG1pbiIsImV4cCI6MTY3MDAyNDkxMX0.zoFkcV60chtzMcM8TNpE6XpnJMbkgFczNkWU3DePmNg</value>
+      <webElementGuid>967c4c93-f4f1-4132-b014-fd831ace0c89</webElementGuid>
+   </httpHeaderProperties>
    <katalonVersion>8.3.0</katalonVersion>
    <maxResponseSize>-1</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
    <restRequestMethod>PUT</restRequestMethod>
-   <restUrl>https://payoll-api.nyakit.in/api/v1/user/123</restUrl>
+   <restUrl>https://payoll-api.nyakit.in/api/v1/transaction/637fd50e48bc526a121d</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>
