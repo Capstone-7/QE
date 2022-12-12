@@ -10,7 +10,7 @@
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n    \&quot;old_password\&quot;:\&quot;@Gatarara123\&quot;,\n    \&quot;new_password\&quot;:\&quot;@Ganteng123\&quot;\n}&quot;,
+  &quot;text&quot;: &quot;{\n    \&quot;old_password\&quot;:\&quot;@Ganteng123\&quot;,\n    \&quot;new_password\&quot;:\&quot;@Password123\&quot;\n}&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>
@@ -28,8 +28,8 @@
       <matchCondition>equals</matchCondition>
       <name>Authorization</name>
       <type>Main</type>
-      <value>Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzNzc5ZjFkZjhiNjZiZjFiZTYzY2YxYSIsInJvbGUiOiJ1c2VyIiwiZXhwIjoxNjY5MjU0MTU3fQ.5-vq93w0NALaB0U9VsVZOAwaLv6FOf2kqTzfLTTDSyY</value>
-      <webElementGuid>89b67c45-ebde-49e8-8923-d2879cbd2f31</webElementGuid>
+      <value>Bearer ${GlobalVariable.globalVar}</value>
+      <webElementGuid>1b2655f0-b8d2-4abb-8c0f-397bcc82ca0b</webElementGuid>
    </httpHeaderProperties>
    <katalonVersion>8.3.0</katalonVersion>
    <maxResponseSize>-1</maxResponseSize>

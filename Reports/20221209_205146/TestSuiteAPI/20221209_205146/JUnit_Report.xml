@@ -1,0 +1,1806 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TestSuiteAPI" time="104.003" tests="28" failures="4" errors="0">
+   <testsuite name="TestSuiteAPI" tests="28" failures="4" errors="0" time="104.003" skipped="0" timestamp="2022-12-09 20:51:56" hostname="User - LAPTOP-RDI03SV1" id="Test Suites/TestSuiteAPI">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\User\\git\\QE\\Reports\\20221209_205146\\TestSuiteAPI\\20221209_205146"/>
+         <property name="logFiles" value="C:\\Users\\User\\git\\QE\\Reports\\20221209_205146\\TestSuiteAPI\\20221209_205146\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="User - LAPTOP-RDI03SV1"/>
+         <property name="hostAddress" value="192.168.0.101"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.3.0.208"/>
+      </properties>
+      <testcase name="Test Cases/TC_Auth_Login" time="10.397" classname="Test Cases/TC_Auth_Login" status="FAILED">
+         <failure type="FAILED" message="Test Cases/TC_Auth_Login FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Expected status code is '200' but actual status code is '401'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyStatusCode(VerifyResponseStatusCodeKeyword.groovy:52)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.access$1(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.doCall(VerifyResponseStatusCodeKeyword.groovy:42)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.call(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyResponseStatusCode(VerifyResponseStatusCodeKeyword.groovy:37)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.execute(VerifyResponseStatusCodeKeyword.groovy:32)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyResponseStatusCode(WSBuiltInKeywords.groovy:344)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyResponseStatusCode$0.call(Unknown Source)
+	at TC_Auth_Login.run(TC_Auth_Login:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1670593906809.run(TempTestSuite1670593906809.groovy:36)
+"/>
+         <system-out><![CDATA[2022-12-09 20:51:57 - [TEST_CASE][FAILED] - Test Cases/TC_Auth_Login: Test Cases/TC_Auth_Login FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Expected status code is '200' but actual status code is '401'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyStatusCode(VerifyResponseStatusCodeKeyword.groovy:52)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.access$1(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.doCall(VerifyResponseStatusCodeKeyword.groovy:42)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.call(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyResponseStatusCode(VerifyResponseStatusCodeKeyword.groovy:37)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.execute(VerifyResponseStatusCodeKeyword.groovy:32)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyResponseStatusCode(WSBuiltInKeywords.groovy:344)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyResponseStatusCode$0.call(Unknown Source)
+	at TC_Auth_Login.run(TC_Auth_Login:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1670593906809.run(TempTestSuite1670593906809.groovy:36)
+
+
+2022-12-09 20:51:58 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Auth/AA007_Login")): Send request successfully
+
+2022-12-09 20:52:07 - [MESSAGE][INFO] - HAR: C:\Users\User\git\QE\Reports\20221209_205146\TestSuiteAPI\20221209_205146\requests\main\0.har
+
+2022-12-09 20:52:07 - [MESSAGE][PASSED] - Send request successfully
+
+2022-12-09 20:52:07 - [TEST_STEP][FAILED] - verifyResponseStatusCode(response, statusCode): Unable to verify response status code (Root cause: com.kms.katalon.core.exception.StepFailedException: Expected status code is '200' but actual status code is '401'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyStatusCode(VerifyResponseStatusCodeKeyword.groovy:52)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.access$1(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.doCall(VerifyResponseStatusCodeKeyword.groovy:42)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.call(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyResponseStatusCode(VerifyResponseStatusCodeKeyword.groovy:37)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.execute(VerifyResponseStatusCodeKeyword.groovy:32)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyResponseStatusCode(WSBuiltInKeywords.groovy:344)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyResponseStatusCode$0.call(Unknown Source)
+	at TC_Auth_Login.run(TC_Auth_Login:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1670593906809.run(TempTestSuite1670593906809.groovy:36)
+)
+
+2022-12-09 20:52:07 - [MESSAGE][FAILED] - Expected status code is '200' but actual status code is '401'
+
+2022-12-09 20:52:07 - [MESSAGE][FAILED] - Unable to verify response status code (Root cause: com.kms.katalon.core.exception.StepFailedException: Expected status code is '200' but actual status code is '401'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyStatusCode(VerifyResponseStatusCodeKeyword.groovy:52)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.access$1(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.doCall(VerifyResponseStatusCodeKeyword.groovy:42)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.call(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyResponseStatusCode(VerifyResponseStatusCodeKeyword.groovy:37)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.execute(VerifyResponseStatusCodeKeyword.groovy:32)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyResponseStatusCode(WSBuiltInKeywords.groovy:344)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyResponseStatusCode$0.call(Unknown Source)
+	at TC_Auth_Login.run(TC_Auth_Login:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1670593906809.run(TempTestSuite1670593906809.groovy:36)
+)]]></system-out>
+         <system-err><![CDATA[2022-12-09 20:51:57 - [TEST_CASE][FAILED] - Test Cases/TC_Auth_Login: Test Cases/TC_Auth_Login FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Expected status code is '200' but actual status code is '401'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyStatusCode(VerifyResponseStatusCodeKeyword.groovy:52)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.access$1(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.doCall(VerifyResponseStatusCodeKeyword.groovy:42)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.call(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyResponseStatusCode(VerifyResponseStatusCodeKeyword.groovy:37)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.execute(VerifyResponseStatusCodeKeyword.groovy:32)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyResponseStatusCode(WSBuiltInKeywords.groovy:344)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyResponseStatusCode$0.call(Unknown Source)
+	at TC_Auth_Login.run(TC_Auth_Login:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1670593906809.run(TempTestSuite1670593906809.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_Auth_Register" time="1.839" classname="Test Cases/TC_Auth_Register" status="PASSED">
+         <system-out><![CDATA[2022-12-09 20:52:08 - [TEST_CASE][PASSED] - Test Cases/TC_Auth_Register: Test Cases/TC_Auth_Register
+
+2022-12-09 20:52:08 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Auth/AA001_Register")): Send request successfully
+
+2022-12-09 20:52:08 - [MESSAGE][INFO] - HAR: C:\Users\User\git\QE\Reports\20221209_205146\TestSuiteAPI\20221209_205146\requests\main\1.har
+
+2022-12-09 20:52:08 - [MESSAGE][PASSED] - Send request successfully
+
+2022-12-09 20:52:08 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, statusCode1): Verify response status code successfully
+
+2022-12-09 20:52:08 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-12-09 20:52:08 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Auth/AA004_NegRegBod")): Send request successfully
+
+2022-12-09 20:52:09 - [MESSAGE][INFO] - HAR: C:\Users\User\git\QE\Reports\20221209_205146\TestSuiteAPI\20221209_205146\requests\main\2.har
+
+2022-12-09 20:52:09 - [MESSAGE][PASSED] - Send request successfully
+
+2022-12-09 20:52:09 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, statusCode2): Verify response status code successfully
+
+2022-12-09 20:52:09 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-12-09 20:52:09 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Auth/AA005_NegRegGet")): Send request successfully
+
+2022-12-09 20:52:09 - [MESSAGE][INFO] - HAR: C:\Users\User\git\QE\Reports\20221209_205146\TestSuiteAPI\20221209_205146\requests\main\3.har
+
+2022-12-09 20:52:09 - [MESSAGE][PASSED] - Send request successfully
+
+2022-12-09 20:52:09 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, statusCode3): Verify response status code successfully
+
+2022-12-09 20:52:09 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-12-09 20:52:09 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Auth/AA006_NegRegPut")): Send request successfully
+
+2022-12-09 20:52:09 - [MESSAGE][INFO] - HAR: C:\Users\User\git\QE\Reports\20221209_205146\TestSuiteAPI\20221209_205146\requests\main\4.har
+
+2022-12-09 20:52:09 - [MESSAGE][PASSED] - Send request successfully
+
+2022-12-09 20:52:09 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, statusCode3): Verify response status code successfully
+
+2022-12-09 20:52:09 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_Auth_ReqOTP" time="3.109" classname="Test Cases/TC_Auth_ReqOTP" status="PASSED">
+         <system-out><![CDATA[2022-12-09 20:52:09 - [TEST_CASE][PASSED] - Test Cases/TC_Auth_ReqOTP: Test Cases/TC_Auth_ReqOTP
+
+2022-12-09 20:52:10 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Auth/AA013_RequestOTP")): Send request successfully
+
+2022-12-09 20:52:10 - [MESSAGE][INFO] - HAR: C:\Users\User\git\QE\Reports\20221209_205146\TestSuiteAPI\20221209_205146\requests\main\5.har
+
+2022-12-09 20:52:10 - [MESSAGE][PASSED] - Send request successfully
+
+2022-12-09 20:52:10 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, statusCode): Verify response status code successfully
+
+2022-12-09 20:52:10 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-12-09 20:52:10 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Auth/AA014_ReqLinkBod")): Send request successfully
+
+2022-12-09 20:52:11 - [MESSAGE][INFO] - HAR: C:\Users\User\git\QE\Reports\20221209_205146\TestSuiteAPI\20221209_205146\requests\main\6.har
+
+2022-12-09 20:52:11 - [MESSAGE][PASSED] - Send request successfully
+
+2022-12-09 20:52:11 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, statusCode4): Verify response status code successfully
+
+2022-12-09 20:52:11 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-12-09 20:52:11 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Auth/AA015_ReqLink")): Send request successfully
+
+2022-12-09 20:52:11 - [MESSAGE][INFO] - HAR: C:\Users\User\git\QE\Reports\20221209_205146\TestSuiteAPI\20221209_205146\requests\main\7.har
+
+2022-12-09 20:52:11 - [MESSAGE][PASSED] - Send request successfully
+
+2022-12-09 20:52:11 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, statusCode4): Verify response status code successfully
+
+2022-12-09 20:52:11 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-12-09 20:52:11 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Auth/AA016_ReqBod")): Send request successfully
+
+2022-12-09 20:52:11 - [MESSAGE][INFO] - HAR: C:\Users\User\git\QE\Reports\20221209_205146\TestSuiteAPI\20221209_205146\requests\main\8.har
+
+2022-12-09 20:52:11 - [MESSAGE][PASSED] - Send request successfully
+
+2022-12-09 20:52:11 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, statusCode5): Verify response status code successfully
+
+2022-12-09 20:52:11 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-12-09 20:52:11 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Auth/AA017_ReqGet")): Send request successfully
+
+2022-12-09 20:52:12 - [MESSAGE][INFO] - HAR: C:\Users\User\git\QE\Reports\20221209_205146\TestSuiteAPI\20221209_205146\requests\main\9.har
+
+2022-12-09 20:52:12 - [MESSAGE][PASSED] - Send request successfully
+
+2022-12-09 20:52:12 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, statusCode3): Verify response status code successfully
+
+2022-12-09 20:52:12 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-12-09 20:52:12 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Auth/AA018_ReqPut")): Send request successfully
+
+2022-12-09 20:52:12 - [MESSAGE][INFO] - HAR: C:\Users\User\git\QE\Reports\20221209_205146\TestSuiteAPI\20221209_205146\requests\main\10.har
+
+2022-12-09 20:52:12 - [MESSAGE][PASSED] - Send request successfully
+
+2022-12-09 20:52:12 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, statusCode3): Verify response status code successfully
+
+2022-12-09 20:52:12 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_Auth_UpdatePass" time="1.988" classname="Test Cases/TC_Auth_UpdatePass" status="FAILED">
+         <failure type="FAILED" message="Test Cases/TC_Auth_UpdatePass FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Expected status code is '200' but actual status code is '500'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyStatusCode(VerifyResponseStatusCodeKeyword.groovy:52)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.access$1(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.doCall(VerifyResponseStatusCodeKeyword.groovy:42)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.call(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyResponseStatusCode(VerifyResponseStatusCodeKeyword.groovy:37)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.execute(VerifyResponseStatusCodeKeyword.groovy:32)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyResponseStatusCode(WSBuiltInKeywords.groovy:344)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyResponseStatusCode$0.call(Unknown Source)
+	at TC_Auth_UpdatePass.run(TC_Auth_UpdatePass:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1670593906809.run(TempTestSuite1670593906809.groovy:36)
+"/>
+         <system-out><![CDATA[2022-12-09 20:52:12 - [TEST_CASE][FAILED] - Test Cases/TC_Auth_UpdatePass: Test Cases/TC_Auth_UpdatePass FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Expected status code is '200' but actual status code is '500'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyStatusCode(VerifyResponseStatusCodeKeyword.groovy:52)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.access$1(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.doCall(VerifyResponseStatusCodeKeyword.groovy:42)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.call(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyResponseStatusCode(VerifyResponseStatusCodeKeyword.groovy:37)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.execute(VerifyResponseStatusCodeKeyword.groovy:32)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyResponseStatusCode(WSBuiltInKeywords.groovy:344)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyResponseStatusCode$0.call(Unknown Source)
+	at TC_Auth_UpdatePass.run(TC_Auth_UpdatePass:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1670593906809.run(TempTestSuite1670593906809.groovy:36)
+
+
+2022-12-09 20:52:14 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Auth/AA036_updatePass")): Send request successfully
+
+2022-12-09 20:52:14 - [MESSAGE][INFO] - HAR: C:\Users\User\git\QE\Reports\20221209_205146\TestSuiteAPI\20221209_205146\requests\main\11.har
+
+2022-12-09 20:52:14 - [MESSAGE][PASSED] - Send request successfully
+
+2022-12-09 20:52:14 - [TEST_STEP][FAILED] - verifyResponseStatusCode(response, statusCode): Unable to verify response status code (Root cause: com.kms.katalon.core.exception.StepFailedException: Expected status code is '200' but actual status code is '500'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyStatusCode(VerifyResponseStatusCodeKeyword.groovy:52)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.access$1(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.doCall(VerifyResponseStatusCodeKeyword.groovy:42)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.call(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyResponseStatusCode(VerifyResponseStatusCodeKeyword.groovy:37)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.execute(VerifyResponseStatusCodeKeyword.groovy:32)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyResponseStatusCode(WSBuiltInKeywords.groovy:344)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyResponseStatusCode$0.call(Unknown Source)
+	at TC_Auth_UpdatePass.run(TC_Auth_UpdatePass:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1670593906809.run(TempTestSuite1670593906809.groovy:36)
+)
+
+2022-12-09 20:52:14 - [MESSAGE][FAILED] - Expected status code is '200' but actual status code is '500'
+
+2022-12-09 20:52:14 - [MESSAGE][FAILED] - Unable to verify response status code (Root cause: com.kms.katalon.core.exception.StepFailedException: Expected status code is '200' but actual status code is '500'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyStatusCode(VerifyResponseStatusCodeKeyword.groovy:52)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.access$1(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.doCall(VerifyResponseStatusCodeKeyword.groovy:42)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.call(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyResponseStatusCode(VerifyResponseStatusCodeKeyword.groovy:37)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.execute(VerifyResponseStatusCodeKeyword.groovy:32)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyResponseStatusCode(WSBuiltInKeywords.groovy:344)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyResponseStatusCode$0.call(Unknown Source)
+	at TC_Auth_UpdatePass.run(TC_Auth_UpdatePass:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1670593906809.run(TempTestSuite1670593906809.groovy:36)
+)]]></system-out>
+         <system-err><![CDATA[2022-12-09 20:52:12 - [TEST_CASE][FAILED] - Test Cases/TC_Auth_UpdatePass: Test Cases/TC_Auth_UpdatePass FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Expected status code is '200' but actual status code is '500'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyStatusCode(VerifyResponseStatusCodeKeyword.groovy:52)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.access$1(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.doCall(VerifyResponseStatusCodeKeyword.groovy:42)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.call(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyResponseStatusCode(VerifyResponseStatusCodeKeyword.groovy:37)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.execute(VerifyResponseStatusCodeKeyword.groovy:32)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyResponseStatusCode(WSBuiltInKeywords.groovy:344)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyResponseStatusCode$0.call(Unknown Source)
+	at TC_Auth_UpdatePass.run(TC_Auth_UpdatePass:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1670593906809.run(TempTestSuite1670593906809.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_Auth_UpdateProfile" time="1.098" classname="Test Cases/TC_Auth_UpdateProfile" status="FAILED">
+         <failure type="FAILED" message="Test Cases/TC_Auth_UpdateProfile FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Expected status code is '200' but actual status code is '500'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyStatusCode(VerifyResponseStatusCodeKeyword.groovy:52)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.access$1(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.doCall(VerifyResponseStatusCodeKeyword.groovy:42)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.call(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyResponseStatusCode(VerifyResponseStatusCodeKeyword.groovy:37)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.execute(VerifyResponseStatusCodeKeyword.groovy:32)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyResponseStatusCode(WSBuiltInKeywords.groovy:344)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyResponseStatusCode$0.call(Unknown Source)
+	at TC_Auth_UpdateProfile.run(TC_Auth_UpdateProfile:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1670593906809.run(TempTestSuite1670593906809.groovy:36)
+"/>
+         <system-out><![CDATA[2022-12-09 20:52:14 - [TEST_CASE][FAILED] - Test Cases/TC_Auth_UpdateProfile: Test Cases/TC_Auth_UpdateProfile FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Expected status code is '200' but actual status code is '500'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyStatusCode(VerifyResponseStatusCodeKeyword.groovy:52)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.access$1(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.doCall(VerifyResponseStatusCodeKeyword.groovy:42)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.call(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyResponseStatusCode(VerifyResponseStatusCodeKeyword.groovy:37)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.execute(VerifyResponseStatusCodeKeyword.groovy:32)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyResponseStatusCode(WSBuiltInKeywords.groovy:344)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyResponseStatusCode$0.call(Unknown Source)
+	at TC_Auth_UpdateProfile.run(TC_Auth_UpdateProfile:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1670593906809.run(TempTestSuite1670593906809.groovy:36)
+
+
+2022-12-09 20:52:15 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Auth/AA031_UpdateProfile")): Send request successfully
+
+2022-12-09 20:52:16 - [MESSAGE][INFO] - HAR: C:\Users\User\git\QE\Reports\20221209_205146\TestSuiteAPI\20221209_205146\requests\main\12.har
+
+2022-12-09 20:52:16 - [MESSAGE][PASSED] - Send request successfully
+
+2022-12-09 20:52:16 - [TEST_STEP][FAILED] - verifyResponseStatusCode(response, statusCode): Unable to verify response status code (Root cause: com.kms.katalon.core.exception.StepFailedException: Expected status code is '200' but actual status code is '500'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyStatusCode(VerifyResponseStatusCodeKeyword.groovy:52)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.access$1(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.doCall(VerifyResponseStatusCodeKeyword.groovy:42)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.call(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyResponseStatusCode(VerifyResponseStatusCodeKeyword.groovy:37)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.execute(VerifyResponseStatusCodeKeyword.groovy:32)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyResponseStatusCode(WSBuiltInKeywords.groovy:344)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyResponseStatusCode$0.call(Unknown Source)
+	at TC_Auth_UpdateProfile.run(TC_Auth_UpdateProfile:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1670593906809.run(TempTestSuite1670593906809.groovy:36)
+)
+
+2022-12-09 20:52:16 - [MESSAGE][FAILED] - Expected status code is '200' but actual status code is '500'
+
+2022-12-09 20:52:16 - [MESSAGE][FAILED] - Unable to verify response status code (Root cause: com.kms.katalon.core.exception.StepFailedException: Expected status code is '200' but actual status code is '500'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyStatusCode(VerifyResponseStatusCodeKeyword.groovy:52)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.access$1(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.doCall(VerifyResponseStatusCodeKeyword.groovy:42)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.call(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyResponseStatusCode(VerifyResponseStatusCodeKeyword.groovy:37)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.execute(VerifyResponseStatusCodeKeyword.groovy:32)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyResponseStatusCode(WSBuiltInKeywords.groovy:344)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyResponseStatusCode$0.call(Unknown Source)
+	at TC_Auth_UpdateProfile.run(TC_Auth_UpdateProfile:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1670593906809.run(TempTestSuite1670593906809.groovy:36)
+)]]></system-out>
+         <system-err><![CDATA[2022-12-09 20:52:14 - [TEST_CASE][FAILED] - Test Cases/TC_Auth_UpdateProfile: Test Cases/TC_Auth_UpdateProfile FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Expected status code is '200' but actual status code is '500'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyStatusCode(VerifyResponseStatusCodeKeyword.groovy:52)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.access$1(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.doCall(VerifyResponseStatusCodeKeyword.groovy:42)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.call(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyResponseStatusCode(VerifyResponseStatusCodeKeyword.groovy:37)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.execute(VerifyResponseStatusCodeKeyword.groovy:32)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyResponseStatusCode(WSBuiltInKeywords.groovy:344)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyResponseStatusCode$0.call(Unknown Source)
+	at TC_Auth_UpdateProfile.run(TC_Auth_UpdateProfile:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1670593906809.run(TempTestSuite1670593906809.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_Admin_allUser" time="4.915" classname="Test Cases/TC_Admin_allUser" status="PASSED">
+         <system-out><![CDATA[2022-12-09 20:52:16 - [TEST_CASE][PASSED] - Test Cases/TC_Admin_allUser: Test Cases/TC_Admin_allUser
+
+2022-12-09 20:52:17 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Admin/AD001_GetAllUser")): Send request successfully
+
+2022-12-09 20:52:18 - [MESSAGE][INFO] - HAR: C:\Users\User\git\QE\Reports\20221209_205146\TestSuiteAPI\20221209_205146\requests\main\13.har
+
+2022-12-09 20:52:18 - [MESSAGE][PASSED] - Send request successfully
+
+2022-12-09 20:52:18 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, statusCode): Verify response status code successfully
+
+2022-12-09 20:52:18 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-12-09 20:52:18 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Admin/AD002_GetAllUserLink")): Send request successfully
+
+2022-12-09 20:52:20 - [MESSAGE][INFO] - HAR: C:\Users\User\git\QE\Reports\20221209_205146\TestSuiteAPI\20221209_205146\requests\main\14.har
+
+2022-12-09 20:52:20 - [MESSAGE][PASSED] - Send request successfully
+
+2022-12-09 20:52:20 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, statusCode6): Verify response status code successfully
+
+2022-12-09 20:52:20 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-12-09 20:52:20 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Admin/AD003_GetAllUserPost")): Send request successfully
+
+2022-12-09 20:52:20 - [MESSAGE][INFO] - HAR: C:\Users\User\git\QE\Reports\20221209_205146\TestSuiteAPI\20221209_205146\requests\main\15.har
+
+2022-12-09 20:52:21 - [MESSAGE][PASSED] - Send request successfully
+
+2022-12-09 20:52:21 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, statusCode4): Verify response status code successfully
+
+2022-12-09 20:52:21 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_Admin_DeleteID" time="2.445" classname="Test Cases/TC_Admin_DeleteID" status="PASSED">
+         <system-out><![CDATA[2022-12-09 20:52:21 - [TEST_CASE][PASSED] - Test Cases/TC_Admin_DeleteID: Test Cases/TC_Admin_DeleteID
+
+2022-12-09 20:52:22 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Admin/AD015_DeleteID")): Send request successfully
+
+2022-12-09 20:52:22 - [MESSAGE][INFO] - HAR: C:\Users\User\git\QE\Reports\20221209_205146\TestSuiteAPI\20221209_205146\requests\main\16.har
+
+2022-12-09 20:52:22 - [MESSAGE][PASSED] - Send request successfully
+
+2022-12-09 20:52:22 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, statusCode): Verify response status code successfully
+
+2022-12-09 20:52:22 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-12-09 20:52:22 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Admin/AD016_DeleteIDLink")): Send request successfully
+
+2022-12-09 20:52:23 - [MESSAGE][INFO] - HAR: C:\Users\User\git\QE\Reports\20221209_205146\TestSuiteAPI\20221209_205146\requests\main\17.har
+
+2022-12-09 20:52:23 - [MESSAGE][PASSED] - Send request successfully
+
+2022-12-09 20:52:23 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, statusCode6): Verify response status code successfully
+
+2022-12-09 20:52:23 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-12-09 20:52:23 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Admin/AD017_DeleteIDPost")): Send request successfully
+
+2022-12-09 20:52:23 - [MESSAGE][INFO] - HAR: C:\Users\User\git\QE\Reports\20221209_205146\TestSuiteAPI\20221209_205146\requests\main\18.har
+
+2022-12-09 20:52:23 - [MESSAGE][PASSED] - Send request successfully
+
+2022-12-09 20:52:23 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, statusCode4): Verify response status code successfully
+
+2022-12-09 20:52:23 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_Admin_UpdateUserbyID" time="13.247" classname="Test Cases/TC_Admin_UpdateUserbyID" status="PASSED">
+         <system-out><![CDATA[2022-12-09 20:52:23 - [TEST_CASE][PASSED] - Test Cases/TC_Admin_UpdateUserbyID: Test Cases/TC_Admin_UpdateUserbyID
+
+2022-12-09 20:52:24 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Admin/AD009_UpdateUser")): Send request successfully
+
+2022-12-09 20:52:24 - [MESSAGE][INFO] - HAR: C:\Users\User\git\QE\Reports\20221209_205146\TestSuiteAPI\20221209_205146\requests\main\19.har
+
+2022-12-09 20:52:24 - [MESSAGE][PASSED] - Send request successfully
+
+2022-12-09 20:52:24 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, statusCode): Verify response status code successfully
+
+2022-12-09 20:52:24 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-12-09 20:52:24 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Admin/AD010_UpdateIDLinkBod")): Send request successfully
+
+2022-12-09 20:52:25 - [MESSAGE][INFO] - HAR: C:\Users\User\git\QE\Reports\20221209_205146\TestSuiteAPI\20221209_205146\requests\main\20.har
+
+2022-12-09 20:52:25 - [MESSAGE][PASSED] - Send request successfully
+
+2022-12-09 20:52:25 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, statusCode5): Verify response status code successfully
+
+2022-12-09 20:52:25 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-12-09 20:52:25 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Admin/AD011_UpdateIDLink")): Send request successfully
+
+2022-12-09 20:52:25 - [MESSAGE][INFO] - HAR: C:\Users\User\git\QE\Reports\20221209_205146\TestSuiteAPI\20221209_205146\requests\main\21.har
+
+2022-12-09 20:52:25 - [MESSAGE][PASSED] - Send request successfully
+
+2022-12-09 20:52:25 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, statusCode6): Verify response status code successfully
+
+2022-12-09 20:52:25 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-12-09 20:52:25 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Admin/AD012_UpdateIDBod")): Send request successfully
+
+2022-12-09 20:52:25 - [MESSAGE][INFO] - HAR: C:\Users\User\git\QE\Reports\20221209_205146\TestSuiteAPI\20221209_205146\requests\main\22.har
+
+2022-12-09 20:52:25 - [MESSAGE][PASSED] - Send request successfully
+
+2022-12-09 20:52:25 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, statusCode5): Verify response status code successfully
+
+2022-12-09 20:52:25 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-12-09 20:52:25 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Admin/AD013_UpdateIDGet")): Send request successfully
+
+2022-12-09 20:52:26 - [MESSAGE][INFO] - HAR: C:\Users\User\git\QE\Reports\20221209_205146\TestSuiteAPI\20221209_205146\requests\main\23.har
+
+2022-12-09 20:52:26 - [MESSAGE][PASSED] - Send request successfully
+
+2022-12-09 20:52:26 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, statusCode6): Verify response status code successfully
+
+2022-12-09 20:52:26 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-12-09 20:52:26 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Admin/AD014_UpdateIDPost")): Send request successfully
+
+2022-12-09 20:52:36 - [MESSAGE][INFO] - HAR: C:\Users\User\git\QE\Reports\20221209_205146\TestSuiteAPI\20221209_205146\requests\main\24.har
+
+2022-12-09 20:52:36 - [MESSAGE][PASSED] - Send request successfully
+
+2022-12-09 20:52:36 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, statusCode4): Verify response status code successfully
+
+2022-12-09 20:52:36 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_Admin_UserByID" time="3.339" classname="Test Cases/TC_Admin_UserByID" status="PASSED">
+         <system-out><![CDATA[2022-12-09 20:52:36 - [TEST_CASE][PASSED] - Test Cases/TC_Admin_UserByID: Test Cases/TC_Admin_UserByID
+
+2022-12-09 20:52:37 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Admin/AD005_GetUserID")): Send request successfully
+
+2022-12-09 20:52:39 - [MESSAGE][INFO] - HAR: C:\Users\User\git\QE\Reports\20221209_205146\TestSuiteAPI\20221209_205146\requests\main\25.har
+
+2022-12-09 20:52:39 - [MESSAGE][PASSED] - Send request successfully
+
+2022-12-09 20:52:39 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, statusCode): Verify response status code successfully
+
+2022-12-09 20:52:39 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-12-09 20:52:39 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Admin/AD006_GetIDPOST")): Send request successfully
+
+2022-12-09 20:52:39 - [MESSAGE][INFO] - HAR: C:\Users\User\git\QE\Reports\20221209_205146\TestSuiteAPI\20221209_205146\requests\main\26.har
+
+2022-12-09 20:52:39 - [MESSAGE][PASSED] - Send request successfully
+
+2022-12-09 20:52:39 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, statusCode6): Verify response status code successfully
+
+2022-12-09 20:52:39 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-12-09 20:52:39 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Admin/AD007_GetIDPost")): Send request successfully
+
+2022-12-09 20:52:40 - [MESSAGE][INFO] - HAR: C:\Users\User\git\QE\Reports\20221209_205146\TestSuiteAPI\20221209_205146\requests\main\27.har
+
+2022-12-09 20:52:40 - [MESSAGE][PASSED] - Send request successfully
+
+2022-12-09 20:52:40 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, statusCode4): Verify response status code successfully
+
+2022-12-09 20:52:40 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_User_DetailProf" time="1.637" classname="Test Cases/TC_User_DetailProf" status="PASSED">
+         <system-out><![CDATA[2022-12-09 20:52:40 - [TEST_CASE][PASSED] - Test Cases/TC_User_DetailProf: Test Cases/TC_User_DetailProf
+
+2022-12-09 20:52:40 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("User/AB001_GetProf")): Send request successfully
+
+2022-12-09 20:52:40 - [MESSAGE][INFO] - HAR: C:\Users\User\git\QE\Reports\20221209_205146\TestSuiteAPI\20221209_205146\requests\main\28.har
+
+2022-12-09 20:52:40 - [MESSAGE][PASSED] - Send request successfully
+
+2022-12-09 20:52:40 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, statusCode): Verify response status code successfully
+
+2022-12-09 20:52:40 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-12-09 20:52:40 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("User/AB002_getProfLink")): Send request successfully
+
+2022-12-09 20:52:41 - [MESSAGE][INFO] - HAR: C:\Users\User\git\QE\Reports\20221209_205146\TestSuiteAPI\20221209_205146\requests\main\29.har
+
+2022-12-09 20:52:41 - [MESSAGE][PASSED] - Send request successfully
+
+2022-12-09 20:52:41 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, statusCode6): Verify response status code successfully
+
+2022-12-09 20:52:41 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-12-09 20:52:41 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("User/AB003_GetProfPost")): Send request successfully
+
+2022-12-09 20:52:41 - [MESSAGE][INFO] - HAR: C:\Users\User\git\QE\Reports\20221209_205146\TestSuiteAPI\20221209_205146\requests\main\30.har
+
+2022-12-09 20:52:41 - [MESSAGE][PASSED] - Send request successfully
+
+2022-12-09 20:52:41 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, statusCode4): Verify response status code successfully
+
+2022-12-09 20:52:41 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-12-09 20:52:41 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("User/AB004_GetProfPut")): Send request successfully
+
+2022-12-09 20:52:41 - [MESSAGE][INFO] - HAR: C:\Users\User\git\QE\Reports\20221209_205146\TestSuiteAPI\20221209_205146\requests\main\31.har
+
+2022-12-09 20:52:41 - [MESSAGE][PASSED] - Send request successfully
+
+2022-12-09 20:52:41 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, statusCode5): Verify response status code successfully
+
+2022-12-09 20:52:41 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_User_TotalUser" time="2.799" classname="Test Cases/TC_User_TotalUser" status="PASSED">
+         <system-out><![CDATA[2022-12-09 20:52:41 - [TEST_CASE][PASSED] - Test Cases/TC_User_TotalUser: Test Cases/TC_User_TotalUser
+
+2022-12-09 20:52:42 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("User/AB005_GetTotalUser")): Send request successfully
+
+2022-12-09 20:52:42 - [MESSAGE][INFO] - HAR: C:\Users\User\git\QE\Reports\20221209_205146\TestSuiteAPI\20221209_205146\requests\main\32.har
+
+2022-12-09 20:52:42 - [MESSAGE][PASSED] - Send request successfully
+
+2022-12-09 20:52:42 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, statusCode): Verify response status code successfully
+
+2022-12-09 20:52:42 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-12-09 20:52:42 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("User/AB006_New Request")): Send request successfully
+
+2022-12-09 20:52:42 - [MESSAGE][INFO] - HAR: C:\Users\User\git\QE\Reports\20221209_205146\TestSuiteAPI\20221209_205146\requests\main\33.har
+
+2022-12-09 20:52:42 - [MESSAGE][PASSED] - Send request successfully
+
+2022-12-09 20:52:42 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, statusCode6): Verify response status code successfully
+
+2022-12-09 20:52:42 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-12-09 20:52:42 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("User/AB003_GetProfPost")): Send request successfully
+
+2022-12-09 20:52:44 - [MESSAGE][INFO] - HAR: C:\Users\User\git\QE\Reports\20221209_205146\TestSuiteAPI\20221209_205146\requests\main\34.har
+
+2022-12-09 20:52:44 - [MESSAGE][PASSED] - Send request successfully
+
+2022-12-09 20:52:44 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, statusCode4): Verify response status code successfully
+
+2022-12-09 20:52:44 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-12-09 20:52:44 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("User/AB004_GetProfPut")): Send request successfully
+
+2022-12-09 20:52:44 - [MESSAGE][INFO] - HAR: C:\Users\User\git\QE\Reports\20221209_205146\TestSuiteAPI\20221209_205146\requests\main\35.har
+
+2022-12-09 20:52:44 - [MESSAGE][PASSED] - Send request successfully
+
+2022-12-09 20:52:44 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, statusCode5): Verify response status code successfully
+
+2022-12-09 20:52:44 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_Product_CategoryList" time="1.649" classname="Test Cases/TC_Product_CategoryList" status="PASSED">
+         <system-out><![CDATA[2022-12-09 20:52:44 - [TEST_CASE][PASSED] - Test Cases/TC_Product_CategoryList: Test Cases/TC_Product_CategoryList
+
+2022-12-09 20:52:45 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Product/AE015_GetCategoryList")): Send request successfully
+
+2022-12-09 20:52:45 - [MESSAGE][INFO] - HAR: C:\Users\User\git\QE\Reports\20221209_205146\TestSuiteAPI\20221209_205146\requests\main\36.har
+
+2022-12-09 20:52:45 - [MESSAGE][PASSED] - Send request successfully
+
+2022-12-09 20:52:45 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, statusCode): Verify response status code successfully
+
+2022-12-09 20:52:45 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-12-09 20:52:45 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Product/AE016_GetCateListLink")): Send request successfully
+
+2022-12-09 20:52:45 - [MESSAGE][INFO] - HAR: C:\Users\User\git\QE\Reports\20221209_205146\TestSuiteAPI\20221209_205146\requests\main\37.har
+
+2022-12-09 20:52:45 - [MESSAGE][PASSED] - Send request successfully
+
+2022-12-09 20:52:45 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, statusCode6): Verify response status code successfully
+
+2022-12-09 20:52:45 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-12-09 20:52:45 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Product/AE013_TotProdPost")): Send request successfully
+
+2022-12-09 20:52:45 - [MESSAGE][INFO] - HAR: C:\Users\User\git\QE\Reports\20221209_205146\TestSuiteAPI\20221209_205146\requests\main\38.har
+
+2022-12-09 20:52:45 - [MESSAGE][PASSED] - Send request successfully
+
+2022-12-09 20:52:45 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, statusCode4): Verify response status code successfully
+
+2022-12-09 20:52:45 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-12-09 20:52:45 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Product/AE018_GetCateListPut")): Send request successfully
+
+2022-12-09 20:52:46 - [MESSAGE][INFO] - HAR: C:\Users\User\git\QE\Reports\20221209_205146\TestSuiteAPI\20221209_205146\requests\main\39.har
+
+2022-12-09 20:52:46 - [MESSAGE][PASSED] - Send request successfully
+
+2022-12-09 20:52:46 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, statusCode5): Verify response status code successfully
+
+2022-12-09 20:52:46 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_Product_CategoryListByProductType" time="1.294" classname="Test Cases/TC_Product_CategoryListByProductType" status="PASSED">
+         <system-out><![CDATA[2022-12-09 20:52:46 - [TEST_CASE][PASSED] - Test Cases/TC_Product_CategoryListByProductType: Test Cases/TC_Product_CategoryListByProductType
+
+2022-12-09 20:52:46 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Product/AE019_GetCateListByProdType")): Send request successfully
+
+2022-12-09 20:52:46 - [MESSAGE][INFO] - HAR: C:\Users\User\git\QE\Reports\20221209_205146\TestSuiteAPI\20221209_205146\requests\main\40.har
+
+2022-12-09 20:52:46 - [MESSAGE][PASSED] - Send request successfully
+
+2022-12-09 20:52:46 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, statusCode): Verify response status code successfully
+
+2022-12-09 20:52:46 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-12-09 20:52:46 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Product/AE021_GetCateListByProdTypePost")): Send request successfully
+
+2022-12-09 20:52:47 - [MESSAGE][INFO] - HAR: C:\Users\User\git\QE\Reports\20221209_205146\TestSuiteAPI\20221209_205146\requests\main\41.har
+
+2022-12-09 20:52:47 - [MESSAGE][PASSED] - Send request successfully
+
+2022-12-09 20:52:47 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, statusCode4): Verify response status code successfully
+
+2022-12-09 20:52:47 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-12-09 20:52:47 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Product/AE022_GetCateListByProdTypePut")): Send request successfully
+
+2022-12-09 20:52:47 - [MESSAGE][INFO] - HAR: C:\Users\User\git\QE\Reports\20221209_205146\TestSuiteAPI\20221209_205146\requests\main\42.har
+
+2022-12-09 20:52:47 - [MESSAGE][PASSED] - Send request successfully
+
+2022-12-09 20:52:47 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, statusCode5): Verify response status code successfully
+
+2022-12-09 20:52:47 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_Product_CreateProduct" time="0.734" classname="Test Cases/TC_Product_CreateProduct" status="FAILED">
+         <failure type="FAILED" message="Test Cases/TC_Product_CreateProduct FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Expected status code is '200' but actual status code is '400'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyStatusCode(VerifyResponseStatusCodeKeyword.groovy:52)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.access$1(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.doCall(VerifyResponseStatusCodeKeyword.groovy:42)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.call(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyResponseStatusCode(VerifyResponseStatusCodeKeyword.groovy:37)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.execute(VerifyResponseStatusCodeKeyword.groovy:32)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyResponseStatusCode(WSBuiltInKeywords.groovy:344)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyResponseStatusCode$0.call(Unknown Source)
+	at TC_Product_CreateProduct.run(TC_Product_CreateProduct:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1670593906809.run(TempTestSuite1670593906809.groovy:36)
+"/>
+         <system-out><![CDATA[2022-12-09 20:52:47 - [TEST_CASE][FAILED] - Test Cases/TC_Product_CreateProduct: Test Cases/TC_Product_CreateProduct FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Expected status code is '200' but actual status code is '400'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyStatusCode(VerifyResponseStatusCodeKeyword.groovy:52)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.access$1(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.doCall(VerifyResponseStatusCodeKeyword.groovy:42)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.call(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyResponseStatusCode(VerifyResponseStatusCodeKeyword.groovy:37)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.execute(VerifyResponseStatusCodeKeyword.groovy:32)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyResponseStatusCode(WSBuiltInKeywords.groovy:344)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyResponseStatusCode$0.call(Unknown Source)
+	at TC_Product_CreateProduct.run(TC_Product_CreateProduct:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1670593906809.run(TempTestSuite1670593906809.groovy:36)
+
+
+2022-12-09 20:52:48 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Product/AE001_CreateProduct")): Send request successfully
+
+2022-12-09 20:52:48 - [MESSAGE][INFO] - HAR: C:\Users\User\git\QE\Reports\20221209_205146\TestSuiteAPI\20221209_205146\requests\main\43.har
+
+2022-12-09 20:52:48 - [MESSAGE][PASSED] - Send request successfully
+
+2022-12-09 20:52:48 - [TEST_STEP][FAILED] - verifyResponseStatusCode(response, statusCode): Unable to verify response status code (Root cause: com.kms.katalon.core.exception.StepFailedException: Expected status code is '200' but actual status code is '400'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyStatusCode(VerifyResponseStatusCodeKeyword.groovy:52)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.access$1(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.doCall(VerifyResponseStatusCodeKeyword.groovy:42)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.call(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyResponseStatusCode(VerifyResponseStatusCodeKeyword.groovy:37)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.execute(VerifyResponseStatusCodeKeyword.groovy:32)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyResponseStatusCode(WSBuiltInKeywords.groovy:344)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyResponseStatusCode$0.call(Unknown Source)
+	at TC_Product_CreateProduct.run(TC_Product_CreateProduct:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1670593906809.run(TempTestSuite1670593906809.groovy:36)
+)
+
+2022-12-09 20:52:48 - [MESSAGE][FAILED] - Expected status code is '200' but actual status code is '400'
+
+2022-12-09 20:52:48 - [MESSAGE][FAILED] - Unable to verify response status code (Root cause: com.kms.katalon.core.exception.StepFailedException: Expected status code is '200' but actual status code is '400'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyStatusCode(VerifyResponseStatusCodeKeyword.groovy:52)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.access$1(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.doCall(VerifyResponseStatusCodeKeyword.groovy:42)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.call(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyResponseStatusCode(VerifyResponseStatusCodeKeyword.groovy:37)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.execute(VerifyResponseStatusCodeKeyword.groovy:32)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyResponseStatusCode(WSBuiltInKeywords.groovy:344)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyResponseStatusCode$0.call(Unknown Source)
+	at TC_Product_CreateProduct.run(TC_Product_CreateProduct:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1670593906809.run(TempTestSuite1670593906809.groovy:36)
+)]]></system-out>
+         <system-err><![CDATA[2022-12-09 20:52:47 - [TEST_CASE][FAILED] - Test Cases/TC_Product_CreateProduct: Test Cases/TC_Product_CreateProduct FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Expected status code is '200' but actual status code is '400'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyStatusCode(VerifyResponseStatusCodeKeyword.groovy:52)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.access$1(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.doCall(VerifyResponseStatusCodeKeyword.groovy:42)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.call(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyResponseStatusCode(VerifyResponseStatusCodeKeyword.groovy:37)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.execute(VerifyResponseStatusCodeKeyword.groovy:32)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyResponseStatusCode(WSBuiltInKeywords.groovy:344)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyResponseStatusCode$0.call(Unknown Source)
+	at TC_Product_CreateProduct.run(TC_Product_CreateProduct:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1670593906809.run(TempTestSuite1670593906809.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_Product_GetAllProduct" time="2.668" classname="Test Cases/TC_Product_GetAllProduct" status="PASSED">
+         <system-out><![CDATA[2022-12-09 20:52:48 - [TEST_CASE][PASSED] - Test Cases/TC_Product_GetAllProduct: Test Cases/TC_Product_GetAllProduct
+
+2022-12-09 20:52:48 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Product/AE007_GetAllProduct")): Send request successfully
+
+2022-12-09 20:52:49 - [MESSAGE][INFO] - HAR: C:\Users\User\git\QE\Reports\20221209_205146\TestSuiteAPI\20221209_205146\requests\main\44.har
+
+2022-12-09 20:52:49 - [MESSAGE][PASSED] - Send request successfully
+
+2022-12-09 20:52:49 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, statusCode): Verify response status code successfully
+
+2022-12-09 20:52:49 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-12-09 20:52:49 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Product/AE008_AllProdLink")): Send request successfully
+
+2022-12-09 20:52:50 - [MESSAGE][INFO] - HAR: C:\Users\User\git\QE\Reports\20221209_205146\TestSuiteAPI\20221209_205146\requests\main\45.har
+
+2022-12-09 20:52:50 - [MESSAGE][PASSED] - Send request successfully
+
+2022-12-09 20:52:50 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, statusCode6): Verify response status code successfully
+
+2022-12-09 20:52:50 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-12-09 20:52:50 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Product/AE009_AllProdPost")): Send request successfully
+
+2022-12-09 20:52:50 - [MESSAGE][INFO] - HAR: C:\Users\User\git\QE\Reports\20221209_205146\TestSuiteAPI\20221209_205146\requests\main\46.har
+
+2022-12-09 20:52:50 - [MESSAGE][PASSED] - Send request successfully
+
+2022-12-09 20:52:50 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, statusCode4): Verify response status code successfully
+
+2022-12-09 20:52:50 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-12-09 20:52:50 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Product/AE010_AllProdPut")): Send request successfully
+
+2022-12-09 20:52:50 - [MESSAGE][INFO] - HAR: C:\Users\User\git\QE\Reports\20221209_205146\TestSuiteAPI\20221209_205146\requests\main\47.har
+
+2022-12-09 20:52:50 - [MESSAGE][PASSED] - Send request successfully
+
+2022-12-09 20:52:50 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, statusCode5): Verify response status code successfully
+
+2022-12-09 20:52:50 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_Product_ProductListByCategory" time="3.472" classname="Test Cases/TC_Product_ProductListByCategory" status="PASSED">
+         <system-out><![CDATA[2022-12-09 20:52:50 - [TEST_CASE][PASSED] - Test Cases/TC_Product_ProductListByCategory: Test Cases/TC_Product_ProductListByCategory
+
+2022-12-09 20:52:52 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Product/AE024_GetCateListByProdData")): Send request successfully
+
+2022-12-09 20:52:52 - [MESSAGE][INFO] - HAR: C:\Users\User\git\QE\Reports\20221209_205146\TestSuiteAPI\20221209_205146\requests\main\48.har
+
+2022-12-09 20:52:52 - [MESSAGE][PASSED] - Send request successfully
+
+2022-12-09 20:52:52 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, statusCode): Verify response status code successfully
+
+2022-12-09 20:52:52 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-12-09 20:52:52 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Product/AE025_GetCateListByProdPulsa")): Send request successfully
+
+2022-12-09 20:52:53 - [MESSAGE][INFO] - HAR: C:\Users\User\git\QE\Reports\20221209_205146\TestSuiteAPI\20221209_205146\requests\main\49.har
+
+2022-12-09 20:52:53 - [MESSAGE][PASSED] - Send request successfully
+
+2022-12-09 20:52:53 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, statusCode): Verify response status code successfully
+
+2022-12-09 20:52:53 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-12-09 20:52:53 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Product/AE026_GetCateListByProdLink")): Send request successfully
+
+2022-12-09 20:52:53 - [MESSAGE][INFO] - HAR: C:\Users\User\git\QE\Reports\20221209_205146\TestSuiteAPI\20221209_205146\requests\main\50.har
+
+2022-12-09 20:52:53 - [MESSAGE][PASSED] - Send request successfully
+
+2022-12-09 20:52:53 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, statusCode6): Verify response status code successfully
+
+2022-12-09 20:52:53 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-12-09 20:52:53 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Product/AE027_GetCateListByProdPost")): Send request successfully
+
+2022-12-09 20:52:53 - [MESSAGE][INFO] - HAR: C:\Users\User\git\QE\Reports\20221209_205146\TestSuiteAPI\20221209_205146\requests\main\51.har
+
+2022-12-09 20:52:53 - [MESSAGE][PASSED] - Send request successfully
+
+2022-12-09 20:52:53 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, statusCode4): Verify response status code successfully
+
+2022-12-09 20:52:53 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-12-09 20:52:53 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Product/AE028_GetCateListByProdPut")): Send request successfully
+
+2022-12-09 20:52:54 - [MESSAGE][INFO] - HAR: C:\Users\User\git\QE\Reports\20221209_205146\TestSuiteAPI\20221209_205146\requests\main\52.har
+
+2022-12-09 20:52:54 - [MESSAGE][PASSED] - Send request successfully
+
+2022-12-09 20:52:54 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, statusCode5): Verify response status code successfully
+
+2022-12-09 20:52:54 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_Product_ProductListByType" time="3.506" classname="Test Cases/TC_Product_ProductListByType" status="PASSED">
+         <system-out><![CDATA[2022-12-09 20:52:54 - [TEST_CASE][PASSED] - Test Cases/TC_Product_ProductListByType: Test Cases/TC_Product_ProductListByType
+
+2022-12-09 20:52:55 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Product/AE029_GetProdListByTypeDaily")): Send request successfully
+
+2022-12-09 20:52:56 - [MESSAGE][INFO] - HAR: C:\Users\User\git\QE\Reports\20221209_205146\TestSuiteAPI\20221209_205146\requests\main\53.har
+
+2022-12-09 20:52:56 - [MESSAGE][PASSED] - Send request successfully
+
+2022-12-09 20:52:56 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, statusCode): Verify response status code successfully
+
+2022-12-09 20:52:56 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-12-09 20:52:56 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Product/AE030_GetProdListByTypeBills")): Send request successfully
+
+2022-12-09 20:52:56 - [MESSAGE][INFO] - HAR: C:\Users\User\git\QE\Reports\20221209_205146\TestSuiteAPI\20221209_205146\requests\main\54.har
+
+2022-12-09 20:52:56 - [MESSAGE][PASSED] - Send request successfully
+
+2022-12-09 20:52:56 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, statusCode): Verify response status code successfully
+
+2022-12-09 20:52:56 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-12-09 20:52:56 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Product/AE031_GetProdListByTypeLink")): Send request successfully
+
+2022-12-09 20:52:56 - [MESSAGE][INFO] - HAR: C:\Users\User\git\QE\Reports\20221209_205146\TestSuiteAPI\20221209_205146\requests\main\55.har
+
+2022-12-09 20:52:56 - [MESSAGE][PASSED] - Send request successfully
+
+2022-12-09 20:52:56 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, statusCode6): Verify response status code successfully
+
+2022-12-09 20:52:56 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-12-09 20:52:56 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Product/AE032_GetProdListByTypePost")): Send request successfully
+
+2022-12-09 20:52:57 - [MESSAGE][INFO] - HAR: C:\Users\User\git\QE\Reports\20221209_205146\TestSuiteAPI\20221209_205146\requests\main\56.har
+
+2022-12-09 20:52:57 - [MESSAGE][PASSED] - Send request successfully
+
+2022-12-09 20:52:57 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, statusCode4): Verify response status code successfully
+
+2022-12-09 20:52:57 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-12-09 20:52:57 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Product/AE033_GetProdListByTypePut")): Send request successfully
+
+2022-12-09 20:52:57 - [MESSAGE][INFO] - HAR: C:\Users\User\git\QE\Reports\20221209_205146\TestSuiteAPI\20221209_205146\requests\main\57.har
+
+2022-12-09 20:52:57 - [MESSAGE][PASSED] - Send request successfully
+
+2022-12-09 20:52:57 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, statusCode5): Verify response status code successfully
+
+2022-12-09 20:52:57 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_Product_TotalProduct" time="2.933" classname="Test Cases/TC_Product_TotalProduct" status="PASSED">
+         <system-out><![CDATA[2022-12-09 20:52:57 - [TEST_CASE][PASSED] - Test Cases/TC_Product_TotalProduct: Test Cases/TC_Product_TotalProduct
+
+2022-12-09 20:52:59 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Product/AE011_GetTotalProduct")): Send request successfully
+
+2022-12-09 20:52:59 - [MESSAGE][INFO] - HAR: C:\Users\User\git\QE\Reports\20221209_205146\TestSuiteAPI\20221209_205146\requests\main\58.har
+
+2022-12-09 20:52:59 - [MESSAGE][PASSED] - Send request successfully
+
+2022-12-09 20:52:59 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, statusCode): Verify response status code successfully
+
+2022-12-09 20:52:59 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-12-09 20:52:59 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Product/AE012_TotalProdLink")): Send request successfully
+
+2022-12-09 20:53:00 - [MESSAGE][INFO] - HAR: C:\Users\User\git\QE\Reports\20221209_205146\TestSuiteAPI\20221209_205146\requests\main\59.har
+
+2022-12-09 20:53:00 - [MESSAGE][PASSED] - Send request successfully
+
+2022-12-09 20:53:00 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, statusCode6): Verify response status code successfully
+
+2022-12-09 20:53:00 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-12-09 20:53:00 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Product/AE013_TotProdPost")): Send request successfully
+
+2022-12-09 20:53:00 - [MESSAGE][INFO] - HAR: C:\Users\User\git\QE\Reports\20221209_205146\TestSuiteAPI\20221209_205146\requests\main\60.har
+
+2022-12-09 20:53:00 - [MESSAGE][PASSED] - Send request successfully
+
+2022-12-09 20:53:00 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, statusCode4): Verify response status code successfully
+
+2022-12-09 20:53:00 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-12-09 20:53:00 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Product/AE014_TotProdPut")): Send request successfully
+
+2022-12-09 20:53:00 - [MESSAGE][INFO] - HAR: C:\Users\User\git\QE\Reports\20221209_205146\TestSuiteAPI\20221209_205146\requests\main\61.har
+
+2022-12-09 20:53:00 - [MESSAGE][PASSED] - Send request successfully
+
+2022-12-09 20:53:00 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, statusCode5): Verify response status code successfully
+
+2022-12-09 20:53:00 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_ProductListByType" time="3.534" classname="Test Cases/TC_ProductListByType" status="PASSED">
+         <system-out><![CDATA[2022-12-09 20:53:00 - [TEST_CASE][PASSED] - Test Cases/TC_ProductListByType: Test Cases/TC_ProductListByType
+
+2022-12-09 20:53:02 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Product/AE029_GetProdListByTypeDaily")): Send request successfully
+
+2022-12-09 20:53:02 - [MESSAGE][INFO] - HAR: C:\Users\User\git\QE\Reports\20221209_205146\TestSuiteAPI\20221209_205146\requests\main\62.har
+
+2022-12-09 20:53:02 - [MESSAGE][PASSED] - Send request successfully
+
+2022-12-09 20:53:02 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, statusCode): Verify response status code successfully
+
+2022-12-09 20:53:02 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-12-09 20:53:02 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Product/AE030_GetProdListByTypeBills")): Send request successfully
+
+2022-12-09 20:53:03 - [MESSAGE][INFO] - HAR: C:\Users\User\git\QE\Reports\20221209_205146\TestSuiteAPI\20221209_205146\requests\main\63.har
+
+2022-12-09 20:53:03 - [MESSAGE][PASSED] - Send request successfully
+
+2022-12-09 20:53:03 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, statusCode): Verify response status code successfully
+
+2022-12-09 20:53:03 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-12-09 20:53:03 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Product/AE031_GetProdListByTypeLink")): Send request successfully
+
+2022-12-09 20:53:03 - [MESSAGE][INFO] - HAR: C:\Users\User\git\QE\Reports\20221209_205146\TestSuiteAPI\20221209_205146\requests\main\64.har
+
+2022-12-09 20:53:03 - [MESSAGE][PASSED] - Send request successfully
+
+2022-12-09 20:53:03 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, statusCode6): Verify response status code successfully
+
+2022-12-09 20:53:03 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-12-09 20:53:03 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Product/AE032_GetProdListByTypePost")): Send request successfully
+
+2022-12-09 20:53:03 - [MESSAGE][INFO] - HAR: C:\Users\User\git\QE\Reports\20221209_205146\TestSuiteAPI\20221209_205146\requests\main\65.har
+
+2022-12-09 20:53:03 - [MESSAGE][PASSED] - Send request successfully
+
+2022-12-09 20:53:03 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, statusCode4): Verify response status code successfully
+
+2022-12-09 20:53:03 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-12-09 20:53:03 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Product/AE033_GetProdListByTypePut")): Send request successfully
+
+2022-12-09 20:53:04 - [MESSAGE][INFO] - HAR: C:\Users\User\git\QE\Reports\20221209_205146\TestSuiteAPI\20221209_205146\requests\main\66.har
+
+2022-12-09 20:53:04 - [MESSAGE][PASSED] - Send request successfully
+
+2022-12-09 20:53:04 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, statusCode5): Verify response status code successfully
+
+2022-12-09 20:53:04 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_Trans_AllTrans" time="4.442" classname="Test Cases/TC_Trans_AllTrans" status="PASSED">
+         <system-out><![CDATA[2022-12-09 20:53:04 - [TEST_CASE][PASSED] - Test Cases/TC_Trans_AllTrans: Test Cases/TC_Trans_AllTrans
+
+2022-12-09 20:53:05 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Transaction/AC023_GetAllTrans")): Send request successfully
+
+2022-12-09 20:53:06 - [MESSAGE][INFO] - HAR: C:\Users\User\git\QE\Reports\20221209_205146\TestSuiteAPI\20221209_205146\requests\main\67.har
+
+2022-12-09 20:53:06 - [MESSAGE][PASSED] - Send request successfully
+
+2022-12-09 20:53:06 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, statusCode): Verify response status code successfully
+
+2022-12-09 20:53:06 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-12-09 20:53:06 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Transaction/AC024_GetAllTransFail")): Send request successfully
+
+2022-12-09 20:53:07 - [MESSAGE][INFO] - HAR: C:\Users\User\git\QE\Reports\20221209_205146\TestSuiteAPI\20221209_205146\requests\main\68.har
+
+2022-12-09 20:53:07 - [MESSAGE][PASSED] - Send request successfully
+
+2022-12-09 20:53:07 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, statusCode): Verify response status code successfully
+
+2022-12-09 20:53:07 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-12-09 20:53:07 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Transaction/AC025_GetAllTransPend")): Send request successfully
+
+2022-12-09 20:53:07 - [MESSAGE][INFO] - HAR: C:\Users\User\git\QE\Reports\20221209_205146\TestSuiteAPI\20221209_205146\requests\main\69.har
+
+2022-12-09 20:53:07 - [MESSAGE][PASSED] - Send request successfully
+
+2022-12-09 20:53:07 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, statusCode): Verify response status code successfully
+
+2022-12-09 20:53:07 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-12-09 20:53:07 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Transaction/AC026_GetAllTransLink")): Send request successfully
+
+2022-12-09 20:53:08 - [MESSAGE][INFO] - HAR: C:\Users\User\git\QE\Reports\20221209_205146\TestSuiteAPI\20221209_205146\requests\main\70.har
+
+2022-12-09 20:53:08 - [MESSAGE][PASSED] - Send request successfully
+
+2022-12-09 20:53:08 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, statusCode6): Verify response status code successfully
+
+2022-12-09 20:53:08 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-12-09 20:53:08 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Transaction/AC027_GetAllTransPost")): Send request successfully
+
+2022-12-09 20:53:08 - [MESSAGE][INFO] - HAR: C:\Users\User\git\QE\Reports\20221209_205146\TestSuiteAPI\20221209_205146\requests\main\71.har
+
+2022-12-09 20:53:08 - [MESSAGE][PASSED] - Send request successfully
+
+2022-12-09 20:53:08 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, statusCode4): Verify response status code successfully
+
+2022-12-09 20:53:08 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-12-09 20:53:08 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Transaction/AC028_GetAllTransPut")): Send request successfully
+
+2022-12-09 20:53:08 - [MESSAGE][INFO] - HAR: C:\Users\User\git\QE\Reports\20221209_205146\TestSuiteAPI\20221209_205146\requests\main\72.har
+
+2022-12-09 20:53:08 - [MESSAGE][PASSED] - Send request successfully
+
+2022-12-09 20:53:08 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, statusCode6): Verify response status code successfully
+
+2022-12-09 20:53:08 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_Trans_LoginUser" time="2.249" classname="Test Cases/TC_Trans_LoginUser" status="PASSED">
+         <system-out><![CDATA[2022-12-09 20:53:08 - [TEST_CASE][PASSED] - Test Cases/TC_Trans_LoginUser: Test Cases/TC_Trans_LoginUser
+
+2022-12-09 20:53:09 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Transaction/AC001_loginUser")): Send request successfully
+
+2022-12-09 20:53:09 - [MESSAGE][INFO] - HAR: C:\Users\User\git\QE\Reports\20221209_205146\TestSuiteAPI\20221209_205146\requests\main\73.har
+
+2022-12-09 20:53:09 - [MESSAGE][PASSED] - Send request successfully
+
+2022-12-09 20:53:09 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, statusCode): Verify response status code successfully
+
+2022-12-09 20:53:09 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-12-09 20:53:09 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Transaction/AC002_LogUserLink")): Send request successfully
+
+2022-12-09 20:53:10 - [MESSAGE][INFO] - HAR: C:\Users\User\git\QE\Reports\20221209_205146\TestSuiteAPI\20221209_205146\requests\main\74.har
+
+2022-12-09 20:53:10 - [MESSAGE][PASSED] - Send request successfully
+
+2022-12-09 20:53:10 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, statusCode6): Verify response status code successfully
+
+2022-12-09 20:53:10 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-12-09 20:53:10 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Transaction/AC003_LogUserPOST")): Send request successfully
+
+2022-12-09 20:53:10 - [MESSAGE][INFO] - HAR: C:\Users\User\git\QE\Reports\20221209_205146\TestSuiteAPI\20221209_205146\requests\main\75.har
+
+2022-12-09 20:53:10 - [MESSAGE][PASSED] - Send request successfully
+
+2022-12-09 20:53:10 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, statusCode4): Verify response status code successfully
+
+2022-12-09 20:53:10 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-12-09 20:53:10 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Transaction/AC004_LogUserPut")): Send request successfully
+
+2022-12-09 20:53:11 - [MESSAGE][INFO] - HAR: C:\Users\User\git\QE\Reports\20221209_205146\TestSuiteAPI\20221209_205146\requests\main\76.har
+
+2022-12-09 20:53:11 - [MESSAGE][PASSED] - Send request successfully
+
+2022-12-09 20:53:11 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, statusCode5): Verify response status code successfully
+
+2022-12-09 20:53:11 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_Trans_RevTrans" time="4.095" classname="Test Cases/TC_Trans_RevTrans" status="PASSED">
+         <system-out><![CDATA[2022-12-09 20:53:11 - [TEST_CASE][PASSED] - Test Cases/TC_Trans_RevTrans: Test Cases/TC_Trans_RevTrans
+
+2022-12-09 20:53:12 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Transaction/AC037_RevTrans")): Send request successfully
+
+2022-12-09 20:53:12 - [MESSAGE][INFO] - HAR: C:\Users\User\git\QE\Reports\20221209_205146\TestSuiteAPI\20221209_205146\requests\main\77.har
+
+2022-12-09 20:53:13 - [MESSAGE][PASSED] - Send request successfully
+
+2022-12-09 20:53:13 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, statusCode): Verify response status code successfully
+
+2022-12-09 20:53:13 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-12-09 20:53:13 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Transaction/AC038_RevTransLinkBod")): Send request successfully
+
+2022-12-09 20:53:13 - [MESSAGE][INFO] - HAR: C:\Users\User\git\QE\Reports\20221209_205146\TestSuiteAPI\20221209_205146\requests\main\78.har
+
+2022-12-09 20:53:13 - [MESSAGE][PASSED] - Send request successfully
+
+2022-12-09 20:53:13 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, statusCode4): Verify response status code successfully
+
+2022-12-09 20:53:13 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-12-09 20:53:13 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Transaction/AC039_RevTransLink")): Send request successfully
+
+2022-12-09 20:53:13 - [MESSAGE][INFO] - HAR: C:\Users\User\git\QE\Reports\20221209_205146\TestSuiteAPI\20221209_205146\requests\main\79.har
+
+2022-12-09 20:53:13 - [MESSAGE][PASSED] - Send request successfully
+
+2022-12-09 20:53:13 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, statusCode4): Verify response status code successfully
+
+2022-12-09 20:53:13 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-12-09 20:53:13 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Transaction/AC040_RevTransBod")): Send request successfully
+
+2022-12-09 20:53:14 - [MESSAGE][INFO] - HAR: C:\Users\User\git\QE\Reports\20221209_205146\TestSuiteAPI\20221209_205146\requests\main\80.har
+
+2022-12-09 20:53:14 - [MESSAGE][PASSED] - Send request successfully
+
+2022-12-09 20:53:14 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, statusCode5): Verify response status code successfully
+
+2022-12-09 20:53:14 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-12-09 20:53:14 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Transaction/AC041_RevTransGet")): Send request successfully
+
+2022-12-09 20:53:14 - [MESSAGE][INFO] - HAR: C:\Users\User\git\QE\Reports\20221209_205146\TestSuiteAPI\20221209_205146\requests\main\81.har
+
+2022-12-09 20:53:14 - [MESSAGE][PASSED] - Send request successfully
+
+2022-12-09 20:53:14 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, statusCode4): Verify response status code successfully
+
+2022-12-09 20:53:14 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-12-09 20:53:14 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Transaction/AC042_RevTransPut")): Send request successfully
+
+2022-12-09 20:53:15 - [MESSAGE][INFO] - HAR: C:\Users\User\git\QE\Reports\20221209_205146\TestSuiteAPI\20221209_205146\requests\main\82.har
+
+2022-12-09 20:53:15 - [MESSAGE][PASSED] - Send request successfully
+
+2022-12-09 20:53:15 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, statusCode6): Verify response status code successfully
+
+2022-12-09 20:53:15 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_Trans_SubTrans" time="6.139" classname="Test Cases/TC_Trans_SubTrans" status="PASSED">
+         <system-out><![CDATA[2022-12-09 20:53:15 - [TEST_CASE][PASSED] - Test Cases/TC_Trans_SubTrans: Test Cases/TC_Trans_SubTrans
+
+2022-12-09 20:53:16 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Transaction/AC031_SubTrans")): Send request successfully
+
+2022-12-09 20:53:19 - [MESSAGE][INFO] - HAR: C:\Users\User\git\QE\Reports\20221209_205146\TestSuiteAPI\20221209_205146\requests\main\83.har
+
+2022-12-09 20:53:19 - [MESSAGE][PASSED] - Send request successfully
+
+2022-12-09 20:53:19 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, statusCode): Verify response status code successfully
+
+2022-12-09 20:53:19 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-12-09 20:53:19 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Transaction/AC032_SubTransLinkBod")): Send request successfully
+
+2022-12-09 20:53:19 - [MESSAGE][INFO] - HAR: C:\Users\User\git\QE\Reports\20221209_205146\TestSuiteAPI\20221209_205146\requests\main\84.har
+
+2022-12-09 20:53:19 - [MESSAGE][PASSED] - Send request successfully
+
+2022-12-09 20:53:19 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, statusCode4): Verify response status code successfully
+
+2022-12-09 20:53:19 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-12-09 20:53:19 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Transaction/AC033_SubTransLink")): Send request successfully
+
+2022-12-09 20:53:20 - [MESSAGE][INFO] - HAR: C:\Users\User\git\QE\Reports\20221209_205146\TestSuiteAPI\20221209_205146\requests\main\85.har
+
+2022-12-09 20:53:20 - [MESSAGE][PASSED] - Send request successfully
+
+2022-12-09 20:53:20 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, statusCode4): Verify response status code successfully
+
+2022-12-09 20:53:20 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-12-09 20:53:20 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Transaction/AC034_SubTransBod")): Send request successfully
+
+2022-12-09 20:53:20 - [MESSAGE][INFO] - HAR: C:\Users\User\git\QE\Reports\20221209_205146\TestSuiteAPI\20221209_205146\requests\main\86.har
+
+2022-12-09 20:53:20 - [MESSAGE][PASSED] - Send request successfully
+
+2022-12-09 20:53:20 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, statusCode4): Verify response status code successfully
+
+2022-12-09 20:53:20 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-12-09 20:53:20 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Transaction/AC035_SubTransPut")): Send request successfully
+
+2022-12-09 20:53:20 - [MESSAGE][INFO] - HAR: C:\Users\User\git\QE\Reports\20221209_205146\TestSuiteAPI\20221209_205146\requests\main\87.har
+
+2022-12-09 20:53:20 - [MESSAGE][PASSED] - Send request successfully
+
+2022-12-09 20:53:20 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, statusCode6): Verify response status code successfully
+
+2022-12-09 20:53:20 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-12-09 20:53:20 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Transaction/AC036_SubTransGet")): Send request successfully
+
+2022-12-09 20:53:21 - [MESSAGE][INFO] - HAR: C:\Users\User\git\QE\Reports\20221209_205146\TestSuiteAPI\20221209_205146\requests\main\88.har
+
+2022-12-09 20:53:21 - [MESSAGE][PASSED] - Send request successfully
+
+2022-12-09 20:53:21 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, statusCode4): Verify response status code successfully
+
+2022-12-09 20:53:21 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_Trans_TotalTrans" time="2.07" classname="Test Cases/TC_Trans_TotalTrans" status="PASSED">
+         <system-out><![CDATA[2022-12-09 20:53:21 - [TEST_CASE][PASSED] - Test Cases/TC_Trans_TotalTrans: Test Cases/TC_Trans_TotalTrans
+
+2022-12-09 20:53:22 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Transaction/AC029_TotalTrans")): Send request successfully
+
+2022-12-09 20:53:23 - [MESSAGE][INFO] - HAR: C:\Users\User\git\QE\Reports\20221209_205146\TestSuiteAPI\20221209_205146\requests\main\89.har
+
+2022-12-09 20:53:23 - [MESSAGE][PASSED] - Send request successfully
+
+2022-12-09 20:53:23 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, statusCode): Verify response status code successfully
+
+2022-12-09 20:53:23 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-12-09 20:53:23 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Transaction/AC030_TotalTransLink")): Send request successfully
+
+2022-12-09 20:53:23 - [MESSAGE][INFO] - HAR: C:\Users\User\git\QE\Reports\20221209_205146\TestSuiteAPI\20221209_205146\requests\main\90.har
+
+2022-12-09 20:53:23 - [MESSAGE][PASSED] - Send request successfully
+
+2022-12-09 20:53:23 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, statusCode7): Verify response status code successfully
+
+2022-12-09 20:53:23 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_Trans_TransHist" time="3.09" classname="Test Cases/TC_Trans_TransHist" status="PASSED">
+         <system-out><![CDATA[2022-12-09 20:53:23 - [TEST_CASE][PASSED] - Test Cases/TC_Trans_TransHist: Test Cases/TC_Trans_TransHist
+
+2022-12-09 20:53:24 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Transaction/AC009_TransactionHist")): Send request successfully
+
+2022-12-09 20:53:25 - [MESSAGE][INFO] - HAR: C:\Users\User\git\QE\Reports\20221209_205146\TestSuiteAPI\20221209_205146\requests\main\91.har
+
+2022-12-09 20:53:25 - [MESSAGE][PASSED] - Send request successfully
+
+2022-12-09 20:53:25 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, statusCode): Verify response status code successfully
+
+2022-12-09 20:53:25 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-12-09 20:53:25 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Transaction/AC010_TransHistLink")): Send request successfully
+
+2022-12-09 20:53:25 - [MESSAGE][INFO] - HAR: C:\Users\User\git\QE\Reports\20221209_205146\TestSuiteAPI\20221209_205146\requests\main\92.har
+
+2022-12-09 20:53:25 - [MESSAGE][PASSED] - Send request successfully
+
+2022-12-09 20:53:25 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, statusCode4): Verify response status code successfully
+
+2022-12-09 20:53:25 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-12-09 20:53:25 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Transaction/AC011_TransHistPost")): Send request successfully
+
+2022-12-09 20:53:26 - [MESSAGE][INFO] - HAR: C:\Users\User\git\QE\Reports\20221209_205146\TestSuiteAPI\20221209_205146\requests\main\93.har
+
+2022-12-09 20:53:26 - [MESSAGE][PASSED] - Send request successfully
+
+2022-12-09 20:53:26 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, statusCode4): Verify response status code successfully
+
+2022-12-09 20:53:26 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-12-09 20:53:26 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Transaction/AC012_TransHistPut")): Send request successfully
+
+2022-12-09 20:53:26 - [MESSAGE][INFO] - HAR: C:\Users\User\git\QE\Reports\20221209_205146\TestSuiteAPI\20221209_205146\requests\main\94.har
+
+2022-12-09 20:53:26 - [MESSAGE][PASSED] - Send request successfully
+
+2022-12-09 20:53:26 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, statusCode6): Verify response status code successfully
+
+2022-12-09 20:53:26 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_Trans_TransHistID" time="2.968" classname="Test Cases/TC_Trans_TransHistID" status="PASSED">
+         <system-out><![CDATA[2022-12-09 20:53:26 - [TEST_CASE][PASSED] - Test Cases/TC_Trans_TransHistID: Test Cases/TC_Trans_TransHistID
+
+2022-12-09 20:53:27 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Transaction/AC013_TransID")): Send request successfully
+
+2022-12-09 20:53:28 - [MESSAGE][INFO] - HAR: C:\Users\User\git\QE\Reports\20221209_205146\TestSuiteAPI\20221209_205146\requests\main\95.har
+
+2022-12-09 20:53:28 - [MESSAGE][PASSED] - Send request successfully
+
+2022-12-09 20:53:28 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, statusCode): Verify response status code successfully
+
+2022-12-09 20:53:28 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-12-09 20:53:28 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Transaction/AC014_TransHistIDWrong")): Send request successfully
+
+2022-12-09 20:53:28 - [MESSAGE][INFO] - HAR: C:\Users\User\git\QE\Reports\20221209_205146\TestSuiteAPI\20221209_205146\requests\main\96.har
+
+2022-12-09 20:53:28 - [MESSAGE][PASSED] - Send request successfully
+
+2022-12-09 20:53:28 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, statusCode6): Verify response status code successfully
+
+2022-12-09 20:53:28 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-12-09 20:53:28 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Transaction/AC015_TransHistIDPost")): Send request successfully
+
+2022-12-09 20:53:29 - [MESSAGE][INFO] - HAR: C:\Users\User\git\QE\Reports\20221209_205146\TestSuiteAPI\20221209_205146\requests\main\97.har
+
+2022-12-09 20:53:29 - [MESSAGE][PASSED] - Send request successfully
+
+2022-12-09 20:53:29 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, statusCode4): Verify response status code successfully
+
+2022-12-09 20:53:29 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-12-09 20:53:29 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Transaction/AC016_TransHistIDPut")): Send request successfully
+
+2022-12-09 20:53:29 - [MESSAGE][INFO] - HAR: C:\Users\User\git\QE\Reports\20221209_205146\TestSuiteAPI\20221209_205146\requests\main\98.har
+
+2022-12-09 20:53:29 - [MESSAGE][PASSED] - Send request successfully
+
+2022-12-09 20:53:29 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, statusCode6): Verify response status code successfully
+
+2022-12-09 20:53:29 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_Trans_UpTransStat" time="3.434" classname="Test Cases/TC_Trans_UpTransStat" status="PASSED">
+         <system-out><![CDATA[2022-12-09 20:53:29 - [TEST_CASE][PASSED] - Test Cases/TC_Trans_UpTransStat: Test Cases/TC_Trans_UpTransStat
+
+2022-12-09 20:53:30 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Transaction/AC017_UpdateTransStat")): Send request successfully
+
+2022-12-09 20:53:31 - [MESSAGE][INFO] - HAR: C:\Users\User\git\QE\Reports\20221209_205146\TestSuiteAPI\20221209_205146\requests\main\99.har
+
+2022-12-09 20:53:31 - [MESSAGE][PASSED] - Send request successfully
+
+2022-12-09 20:53:31 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, statusCode): Verify response status code successfully
+
+2022-12-09 20:53:31 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-12-09 20:53:31 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Transaction/AC020_UpTransStatBod")): Send request successfully
+
+2022-12-09 20:53:32 - [MESSAGE][INFO] - HAR: C:\Users\User\git\QE\Reports\20221209_205146\TestSuiteAPI\20221209_205146\requests\main\100.har
+
+2022-12-09 20:53:32 - [MESSAGE][PASSED] - Send request successfully
+
+2022-12-09 20:53:32 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, statusCode6): Verify response status code successfully
+
+2022-12-09 20:53:32 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-12-09 20:53:32 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Transaction/AC021_UpTransStatGet")): Send request successfully
+
+2022-12-09 20:53:32 - [MESSAGE][INFO] - HAR: C:\Users\User\git\QE\Reports\20221209_205146\TestSuiteAPI\20221209_205146\requests\main\101.har
+
+2022-12-09 20:53:32 - [MESSAGE][PASSED] - Send request successfully
+
+2022-12-09 20:53:32 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, statusCode4): Verify response status code successfully
+
+2022-12-09 20:53:32 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-12-09 20:53:32 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Transaction/AC022_UpTransStatPost")): Send request successfully
+
+2022-12-09 20:53:32 - [MESSAGE][INFO] - HAR: C:\Users\User\git\QE\Reports\20221209_205146\TestSuiteAPI\20221209_205146\requests\main\102.har
+
+2022-12-09 20:53:32 - [MESSAGE][PASSED] - Send request successfully
+
+2022-12-09 20:53:32 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, statusCode4): Verify response status code successfully
+
+2022-12-09 20:53:32 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_TransLoginAdmin" time="7.844" classname="Test Cases/TC_TransLoginAdmin" status="PASSED">
+         <system-out><![CDATA[2022-12-09 20:53:33 - [TEST_CASE][PASSED] - Test Cases/TC_TransLoginAdmin: Test Cases/TC_TransLoginAdmin
+
+2022-12-09 20:53:34 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Transaction/AC005_loginAdmin")): Send request successfully
+
+2022-12-09 20:53:35 - [MESSAGE][INFO] - HAR: C:\Users\User\git\QE\Reports\20221209_205146\TestSuiteAPI\20221209_205146\requests\main\103.har
+
+2022-12-09 20:53:35 - [MESSAGE][PASSED] - Send request successfully
+
+2022-12-09 20:53:35 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, statusCode): Verify response status code successfully
+
+2022-12-09 20:53:35 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-12-09 20:53:35 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Transaction/AC006_LogAdmLink")): Send request successfully
+
+2022-12-09 20:53:36 - [MESSAGE][INFO] - HAR: C:\Users\User\git\QE\Reports\20221209_205146\TestSuiteAPI\20221209_205146\requests\main\104.har
+
+2022-12-09 20:53:36 - [MESSAGE][PASSED] - Send request successfully
+
+2022-12-09 20:53:36 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, statusCode6): Verify response status code successfully
+
+2022-12-09 20:53:36 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-12-09 20:53:36 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Transaction/AC007_LogAdmPOST")): Send request successfully
+
+2022-12-09 20:53:39 - [MESSAGE][INFO] - HAR: C:\Users\User\git\QE\Reports\20221209_205146\TestSuiteAPI\20221209_205146\requests\main\105.har
+
+2022-12-09 20:53:39 - [MESSAGE][PASSED] - Send request successfully
+
+2022-12-09 20:53:39 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, statusCode4): Verify response status code successfully
+
+2022-12-09 20:53:39 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-12-09 20:53:39 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Transaction/AC008_LogAdPut")): Send request successfully
+
+2022-12-09 20:53:40 - [MESSAGE][INFO] - HAR: C:\Users\User\git\QE\Reports\20221209_205146\TestSuiteAPI\20221209_205146\requests\main\106.har
+
+2022-12-09 20:53:40 - [MESSAGE][PASSED] - Send request successfully
+
+2022-12-09 20:53:40 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, statusCode5): Verify response status code successfully
+
+2022-12-09 20:53:40 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-12-09 20:51:56 - [TEST_SUITE][FAILED] - TestSuiteAPI: Test Cases/TC_Auth_Login FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Expected status code is '200' but actual status code is '401'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyStatusCode(VerifyResponseStatusCodeKeyword.groovy:52)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.access$1(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.doCall(VerifyResponseStatusCodeKeyword.groovy:42)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.call(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyResponseStatusCode(VerifyResponseStatusCodeKeyword.groovy:37)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.execute(VerifyResponseStatusCodeKeyword.groovy:32)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyResponseStatusCode(WSBuiltInKeywords.groovy:344)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyResponseStatusCode$0.call(Unknown Source)
+	at TC_Auth_Login.run(TC_Auth_Login:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1670593906809.run(TempTestSuite1670593906809.groovy:36)]]></system-out>
+      <system-err><![CDATA[2022-12-09 20:51:56 - [TEST_SUITE][FAILED] - TestSuiteAPI: Test Cases/TC_Auth_Login FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Expected status code is '200' but actual status code is '401'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyStatusCode(VerifyResponseStatusCodeKeyword.groovy:52)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.access$1(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.doCall(VerifyResponseStatusCodeKeyword.groovy:42)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.call(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyResponseStatusCode(VerifyResponseStatusCodeKeyword.groovy:37)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.execute(VerifyResponseStatusCodeKeyword.groovy:32)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyResponseStatusCode(WSBuiltInKeywords.groovy:344)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyResponseStatusCode$0.call(Unknown Source)
+	at TC_Auth_Login.run(TC_Auth_Login:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1670593906809.run(TempTestSuite1670593906809.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>

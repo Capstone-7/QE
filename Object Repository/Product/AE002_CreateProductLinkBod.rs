@@ -28,8 +28,8 @@
       <matchCondition>equals</matchCondition>
       <name>Authorization</name>
       <type>Main</type>
-      <value>Bearer ${GlobalVariable.SuperAdminToken}</value>
-      <webElementGuid>5dce6a9d-7f19-45ef-91a4-8228258821e8</webElementGuid>
+      <value>Bearer ${GlobalVariable.globalVar}</value>
+      <webElementGuid>015514f6-b6f3-4422-bcad-ff3e5f1516ce</webElementGuid>
    </httpHeaderProperties>
    <katalonVersion>8.3.0</katalonVersion>
    <maxResponseSize>-1</maxResponseSize>

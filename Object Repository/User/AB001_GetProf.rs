@@ -16,8 +16,8 @@
       <matchCondition>equals</matchCondition>
       <name>Authorization</name>
       <type>Main</type>
-      <value>Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzNzc5ZjFkZjhiNjZiZjFiZTYzY2YxYSIsInJvbGUiOiJ1c2VyIiwiZXhwIjoxNjY5MjU0NTc2fQ.L_jbxv-OtsbQD440pBlVmHDHNtbkOD9XpXEUbWSNSvU</value>
-      <webElementGuid>7e052a8a-0104-4483-892c-a3f88ae57ac8</webElementGuid>
+      <value>Bearer ${GlobalVariable.globalVar}</value>
+      <webElementGuid>d788d881-d5af-481d-8310-dbe5a2f8b338</webElementGuid>
    </httpHeaderProperties>
    <katalonVersion>8.3.0</katalonVersion>
    <maxResponseSize>-1</maxResponseSize>

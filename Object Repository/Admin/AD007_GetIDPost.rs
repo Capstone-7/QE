@@ -11,11 +11,19 @@
    <httpBody></httpBody>
    <httpBodyContent></httpBodyContent>
    <httpBodyType></httpBodyType>
+   <httpHeaderProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>Authorization</name>
+      <type>Main</type>
+      <value>Bearer ${GlobalVariable.globalVar}</value>
+      <webElementGuid>7cdbdd96-c6a8-46cb-be6d-b91a5e734e8f</webElementGuid>
+   </httpHeaderProperties>
    <katalonVersion>8.3.0</katalonVersion>
    <maxResponseSize>-1</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
    <restRequestMethod>POST</restRequestMethod>
-   <restUrl>https://payoll-api.nyakit.in/api/v1/user/:id</restUrl>
+   <restUrl>https://payoll-api.nyakit.in/api/v1/user/63778c1e40964de3b6ac4015</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_Auth_UpdateProfile</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>561a3f49-bf8d-4005-8a3e-6744c4bc7652</testCaseGuid>
+</TestCaseEntity>

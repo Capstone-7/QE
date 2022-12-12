@@ -28,8 +28,8 @@
       <matchCondition>equals</matchCondition>
       <name>Authorization</name>
       <type>Main</type>
-      <value>Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzNzc5ZjFkZjhiNjZiZjFiZTYzY2YxYSIsInJvbGUiOiJ1c2VyIiwiZXhwIjoxNjY5MjU0NTc2fQ.L_jbxv-OtsbQD440pBlVmHDHNtbkOD9XpXEUbWSNSvU</value>
-      <webElementGuid>6765ff48-847a-4620-a313-e26e54b646f5</webElementGuid>
+      <value>Bearer ${GlobalVariable.globalVar}</value>
+      <webElementGuid>076175c5-5b48-47e3-9c7a-3a24808e00b2</webElementGuid>
    </httpHeaderProperties>
    <katalonVersion>8.3.0</katalonVersion>
    <maxResponseSize>-1</maxResponseSize>

@@ -41,12 +41,12 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>null</initValue>
-      <name>global</name>
+      <initValue>404</initValue>
+      <name>statusCode7</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzN2UzMjlmZTllNjFhYTIyNmYzYmNkZSIsInJvbGUiOiJhZG1pbiIsImV4cCI6MTY3MDA4Mzc3MH0.X4NfWdtQcSuDrpXwYXoXVsRQgcGKhSlLp71zMD1k7wY'</initValue>
+      <initValue>'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzN2UzMjlmZTllNjFhYTIyNmYzYmNkZSIsInJvbGUiOiJhZG1pbiIsImV4cCI6MTY3MDYzNTk0MH0.-bdWygJXbS6mH2qCX1MecV0T6vwGyxeKagMleOTa-Po'</initValue>
       <name>globalVar</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

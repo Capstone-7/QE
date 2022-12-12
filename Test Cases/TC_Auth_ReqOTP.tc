@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_Auth_ReqOTP</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>6cccca0a-427e-4a1c-8b91-3e918d413d5a</testCaseGuid>
+</TestCaseEntity>

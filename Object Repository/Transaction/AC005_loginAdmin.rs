@@ -16,14 +16,14 @@
       <matchCondition>equals</matchCondition>
       <name>Authorization</name>
       <type>Main</type>
-      <value>Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzNzc5ZjFkZjhiNjZiZjFiZTYzY2YxYSIsInJvbGUiOiJ1c2VyIiwiZXhwIjoxNjY5MjU0NTc2fQ.L_jbxv-OtsbQD440pBlVmHDHNtbkOD9XpXEUbWSNSvU</value>
-      <webElementGuid>44c8cf99-660c-4589-8291-baddc0ba2000</webElementGuid>
+      <value>Bearer ${GlobalVariable.globalVar}</value>
+      <webElementGuid>f1ffc1a0-5fe1-45e6-aa6a-d063dfe5f8af</webElementGuid>
    </httpHeaderProperties>
    <katalonVersion>8.3.0</katalonVersion>
    <maxResponseSize>-1</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
    <restRequestMethod>GET</restRequestMethod>
-   <restUrl>https://payoll-api.nyakit.in/api/v1/user/prof</restUrl>
+   <restUrl>https://payoll-api.nyakit.in/api/v1/user/profile</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>

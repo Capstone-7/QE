@@ -10,7 +10,7 @@
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n    \&quot;email\&quot;:\&quot;tes123@gmail.com\&quot;,\n    \&quot;password\&quot;:\&quot;@Password123\&quot;,\n    \&quot;name\&quot;:\&quot;Rindha Ayu\&quot;\n}&quot;,
+  &quot;text&quot;: &quot;{\n    \&quot;email\&quot;:\&quot;tes127@gmail.com\&quot;,\n    \&quot;password\&quot;:\&quot;@Password123\&quot;,\n    \&quot;name\&quot;:\&quot;Rindha Ayu\&quot;\n}&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>

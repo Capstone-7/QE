@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_Auth_Login</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bdbf08e2-4b22-48e3-be34-b9c5312e228f</testCaseGuid>
+</TestCaseEntity>

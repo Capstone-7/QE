@@ -10,7 +10,7 @@
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n    \&quot;name\&quot;:\&quot;Ariesta New\&quot;,\n    \&quot;email\&quot;:\&quot;anisa@nyakit.in\&quot;\n}&quot;,
+  &quot;text&quot;: &quot;{\n    \&quot;name\&quot;:\&quot;Ariesta Putra\&quot;,\n    \&quot;email\&quot;:\&quot;anisa@nyakit.in\&quot;\n}&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>
@@ -28,8 +28,8 @@
       <matchCondition>equals</matchCondition>
       <name>Authorization</name>
       <type>Main</type>
-      <value>Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzNzc5ZjFkZjhiNjZiZjFiZTYzY2YxYSIsInJvbGUiOiJ1c2VyIiwiZXhwIjoxNjY5MjUzNTk5fQ.riHvjVmyMXwYdQ4R0dWTcMzf3E_3G5hQtsj_wICNZr8</value>
-      <webElementGuid>033b4c18-a60a-484b-b3f4-3cfb4638d0c8</webElementGuid>
+      <value>Bearer ${GlobalVariable.globalVar}</value>
+      <webElementGuid>76f02cad-b38c-4b35-b83d-d09ed25cd2ee</webElementGuid>
    </httpHeaderProperties>
    <katalonVersion>8.3.0</katalonVersion>
    <maxResponseSize>-1</maxResponseSize>

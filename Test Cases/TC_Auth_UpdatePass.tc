@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_Auth_UpdatePass</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>47f8f503-d866-481c-a3b3-ba5c2c54bedf</testCaseGuid>
+</TestCaseEntity>

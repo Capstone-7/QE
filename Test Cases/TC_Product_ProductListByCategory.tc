@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_Product_ProductListByCategory</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a0a6164e-b5d5-40c1-87d3-fb7905fc5525</testCaseGuid>
+</TestCaseEntity>

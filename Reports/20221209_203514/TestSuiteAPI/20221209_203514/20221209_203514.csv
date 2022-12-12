@@ -1,0 +1,280 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TestSuiteAPI,,,,2022-12-09 20:35:19,2022-12-09 20:38:59,3m - 39.302s,FAILED
+,,,,,,,
+Test Cases/TC_Auth_Login,,,,2022-12-09 20:35:20,2022-12-09 20:35:27,6.532s,PASSED
+"response = sendRequest(findTestObject(""Auth/AA007_Login""))",,,,2022-12-09 20:35:21,2022-12-09 20:35:24,3.537s,PASSED
+"verifyResponseStatusCode(response, statusCode)",,,,2022-12-09 20:35:24,2022-12-09 20:35:25,0.461s,PASSED
+"response = sendRequest(findTestObject(""Auth/AA008_LogLinkBod""))",,,,2022-12-09 20:35:25,2022-12-09 20:35:25,0.223s,PASSED
+"verifyResponseStatusCode(response, statusCode7)",,,,2022-12-09 20:35:25,2022-12-09 20:35:25,0.006s,PASSED
+"response = sendRequest(findTestObject(""Auth/AA009_NegLogLink""))",,,,2022-12-09 20:35:25,2022-12-09 20:35:26,0.637s,PASSED
+"verifyResponseStatusCode(response, statusCode7)",,,,2022-12-09 20:35:26,2022-12-09 20:35:26,0.004s,PASSED
+"response = sendRequest(findTestObject(""Auth/AA010_LogBod""))",,,,2022-12-09 20:35:26,2022-12-09 20:35:26,0.219s,PASSED
+"verifyResponseStatusCode(response, statusCode5)",,,,2022-12-09 20:35:26,2022-12-09 20:35:26,0.005s,PASSED
+"response = sendRequest(findTestObject(""Auth/AA011_LogGet""))",,,,2022-12-09 20:35:26,2022-12-09 20:35:26,0.446s,PASSED
+"verifyResponseStatusCode(response, statusCode3)",,,,2022-12-09 20:35:26,2022-12-09 20:35:26,0.003s,PASSED
+"response = sendRequest(findTestObject(""Auth/AA012_LogPut""))",,,,2022-12-09 20:35:26,2022-12-09 20:35:27,0.218s,PASSED
+"verifyResponseStatusCode(response, statusCode3)",,,,2022-12-09 20:35:27,2022-12-09 20:35:27,0.003s,PASSED
+,,,,,,,
+Test Cases/TC_Auth_Register,,,,2022-12-09 20:35:27,2022-12-09 20:35:27,0.802s,FAILED
+"response = sendRequest(findTestObject(""Auth/AA001_Register""))",,,,2022-12-09 20:35:27,2022-12-09 20:35:27,0.224s,PASSED
+"verifyResponseStatusCode(response, statusCode1)",,,,2022-12-09 20:35:27,2022-12-09 20:35:27,0.044s,FAILED
+,,,,,,,
+Test Cases/TC_Auth_ReqOTP,,,,2022-12-09 20:35:27,2022-12-09 20:35:31,3.298s,PASSED
+"response = sendRequest(findTestObject(""Auth/AA013_RequestOTP""))",,,,2022-12-09 20:35:28,2022-12-09 20:35:28,0.527s,PASSED
+"verifyResponseStatusCode(response, statusCode)",,,,2022-12-09 20:35:28,2022-12-09 20:35:29,0.004s,PASSED
+"response = sendRequest(findTestObject(""Auth/AA014_ReqLinkBod""))",,,,2022-12-09 20:35:29,2022-12-09 20:35:29,0.826s,PASSED
+"verifyResponseStatusCode(response, statusCode4)",,,,2022-12-09 20:35:29,2022-12-09 20:35:29,0.002s,PASSED
+"response = sendRequest(findTestObject(""Auth/AA015_ReqLink""))",,,,2022-12-09 20:35:29,2022-12-09 20:35:30,0.712s,PASSED
+"verifyResponseStatusCode(response, statusCode4)",,,,2022-12-09 20:35:30,2022-12-09 20:35:30,0.002s,PASSED
+"response = sendRequest(findTestObject(""Auth/AA016_ReqBod""))",,,,2022-12-09 20:35:30,2022-12-09 20:35:30,0.198s,PASSED
+"verifyResponseStatusCode(response, statusCode5)",,,,2022-12-09 20:35:30,2022-12-09 20:35:30,0.002s,PASSED
+"response = sendRequest(findTestObject(""Auth/AA017_ReqGet""))",,,,2022-12-09 20:35:30,2022-12-09 20:35:30,0.222s,PASSED
+"verifyResponseStatusCode(response, statusCode3)",,,,2022-12-09 20:35:30,2022-12-09 20:35:30,0.002s,PASSED
+"response = sendRequest(findTestObject(""Auth/AA018_ReqPut""))",,,,2022-12-09 20:35:30,2022-12-09 20:35:31,0.209s,PASSED
+"verifyResponseStatusCode(response, statusCode3)",,,,2022-12-09 20:35:31,2022-12-09 20:35:31,0.004s,PASSED
+,,,,,,,
+Test Cases/TC_Auth_UpdatePass,,,,2022-12-09 20:35:31,2022-12-09 20:35:32,1.588s,FAILED
+"response = sendRequest(findTestObject(""Auth/AA036_updatePass""))",,,,2022-12-09 20:35:31,2022-12-09 20:35:32,0.611s,PASSED
+"verifyResponseStatusCode(response, statusCode)",,,,2022-12-09 20:35:32,2022-12-09 20:35:32,0.004s,PASSED
+"response = sendRequest(findTestObject(""Auth/AA037_UpdatePassLinkBod""))",,,,2022-12-09 20:35:32,2022-12-09 20:35:32,0.270s,FAILED
+,,,,,,,
+Test Cases/TC_Auth_UpdateProfile,,,,2022-12-09 20:35:32,2022-12-09 20:35:33,1.139s,FAILED
+"response = sendRequest(findTestObject(""Auth/AA031_UpdateProfile""))",,,,2022-12-09 20:35:33,2022-12-09 20:35:33,0.480s,PASSED
+"verifyResponseStatusCode(response, statusCode)",,,,2022-12-09 20:35:33,2022-12-09 20:35:33,0.006s,FAILED
+,,,,,,,
+Test Cases/TC_Admin_allUser,,,,2022-12-09 20:35:33,2022-12-09 20:35:37,3.324s,PASSED
+"response = sendRequest(findTestObject(""Admin/AD001_GetAllUser""))",,,,2022-12-09 20:35:34,2022-12-09 20:35:35,0.556s,PASSED
+"verifyResponseStatusCode(response, statusCode)",,,,2022-12-09 20:35:35,2022-12-09 20:35:35,0.003s,PASSED
+"response = sendRequest(findTestObject(""Admin/AD002_GetAllUserLink""))",,,,2022-12-09 20:35:35,2022-12-09 20:35:35,0.409s,PASSED
+"verifyResponseStatusCode(response, statusCode6)",,,,2022-12-09 20:35:35,2022-12-09 20:35:35,0.003s,PASSED
+"response = sendRequest(findTestObject(""Admin/AD003_GetAllUserPost""))",,,,2022-12-09 20:35:35,2022-12-09 20:35:37,1.769s,PASSED
+"verifyResponseStatusCode(response, statusCode4)",,,,2022-12-09 20:35:37,2022-12-09 20:35:37,0.002s,PASSED
+,,,,,,,
+Test Cases/TC_Admin_DeleteID,,,,2022-12-09 20:35:37,2022-12-09 20:35:38,1.456s,PASSED
+"response = sendRequest(findTestObject(""Admin/AD015_DeleteID""))",,,,2022-12-09 20:35:37,2022-12-09 20:35:38,0.418s,PASSED
+"verifyResponseStatusCode(response, statusCode)",,,,2022-12-09 20:35:38,2022-12-09 20:35:38,0.003s,PASSED
+"response = sendRequest(findTestObject(""Admin/AD016_DeleteIDLink""))",,,,2022-12-09 20:35:38,2022-12-09 20:35:38,0.306s,PASSED
+"verifyResponseStatusCode(response, statusCode6)",,,,2022-12-09 20:35:38,2022-12-09 20:35:38,0.004s,PASSED
+"response = sendRequest(findTestObject(""Admin/AD017_DeleteIDPost""))",,,,2022-12-09 20:35:38,2022-12-09 20:35:38,0.277s,PASSED
+"verifyResponseStatusCode(response, statusCode4)",,,,2022-12-09 20:35:38,2022-12-09 20:35:38,0.002s,PASSED
+,,,,,,,
+Test Cases/TC_Admin_UpdateUserbyID,,,,2022-12-09 20:35:38,2022-12-09 20:35:54,15.432s,PASSED
+"response = sendRequest(findTestObject(""Admin/AD009_UpdateUser""))",,,,2022-12-09 20:35:39,2022-12-09 20:35:40,1.099s,PASSED
+"verifyResponseStatusCode(response, statusCode)",,,,2022-12-09 20:35:40,2022-12-09 20:35:40,0.003s,PASSED
+"response = sendRequest(findTestObject(""Admin/AD010_UpdateIDLinkBod""))",,,,2022-12-09 20:35:40,2022-12-09 20:35:40,0.448s,PASSED
+"verifyResponseStatusCode(response, statusCode5)",,,,2022-12-09 20:35:40,2022-12-09 20:35:40,0.003s,PASSED
+"response = sendRequest(findTestObject(""Admin/AD011_UpdateIDLink""))",,,,2022-12-09 20:35:40,2022-12-09 20:35:41,0.276s,PASSED
+"verifyResponseStatusCode(response, statusCode6)",,,,2022-12-09 20:35:41,2022-12-09 20:35:41,0.003s,PASSED
+"response = sendRequest(findTestObject(""Admin/AD012_UpdateIDBod""))",,,,2022-12-09 20:35:41,2022-12-09 20:35:41,0.239s,PASSED
+"verifyResponseStatusCode(response, statusCode5)",,,,2022-12-09 20:35:41,2022-12-09 20:35:41,0.003s,PASSED
+"response = sendRequest(findTestObject(""Admin/AD013_UpdateIDGet""))",,,,2022-12-09 20:35:41,2022-12-09 20:35:53,12.177s,PASSED
+"verifyResponseStatusCode(response, statusCode6)",,,,2022-12-09 20:35:53,2022-12-09 20:35:53,0.002s,PASSED
+"response = sendRequest(findTestObject(""Admin/AD014_UpdateIDPost""))",,,,2022-12-09 20:35:53,2022-12-09 20:35:54,0.643s,PASSED
+"verifyResponseStatusCode(response, statusCode4)",,,,2022-12-09 20:35:54,2022-12-09 20:35:54,0.004s,PASSED
+,,,,,,,
+Test Cases/TC_Admin_UserByID,,,,2022-12-09 20:35:54,2022-12-09 20:36:01,6.967s,PASSED
+"response = sendRequest(findTestObject(""Admin/AD005_GetUserID""))",,,,2022-12-09 20:35:55,2022-12-09 20:35:57,2.635s,PASSED
+"verifyResponseStatusCode(response, statusCode)",,,,2022-12-09 20:35:57,2022-12-09 20:35:57,0.004s,PASSED
+"response = sendRequest(findTestObject(""Admin/AD006_GetIDPOST""))",,,,2022-12-09 20:35:57,2022-12-09 20:36:00,2.978s,PASSED
+"verifyResponseStatusCode(response, statusCode6)",,,,2022-12-09 20:36:00,2022-12-09 20:36:00,0.003s,PASSED
+"response = sendRequest(findTestObject(""Admin/AD007_GetIDPost""))",,,,2022-12-09 20:36:00,2022-12-09 20:36:01,0.306s,PASSED
+"verifyResponseStatusCode(response, statusCode4)",,,,2022-12-09 20:36:01,2022-12-09 20:36:01,0.004s,PASSED
+,,,,,,,
+Test Cases/TC_User_DetailProf,,,,2022-12-09 20:36:01,2022-12-09 20:36:04,3.790s,PASSED
+"response = sendRequest(findTestObject(""User/AB001_GetProf""))",,,,2022-12-09 20:36:02,2022-12-09 20:36:02,0.397s,PASSED
+"verifyResponseStatusCode(response, statusCode)",,,,2022-12-09 20:36:02,2022-12-09 20:36:02,0.004s,PASSED
+"response = sendRequest(findTestObject(""User/AB002_getProfLink""))",,,,2022-12-09 20:36:02,2022-12-09 20:36:04,1.463s,PASSED
+"verifyResponseStatusCode(response, statusCode6)",,,,2022-12-09 20:36:04,2022-12-09 20:36:04,0.009s,PASSED
+"response = sendRequest(findTestObject(""User/AB003_GetProfPost""))",,,,2022-12-09 20:36:04,2022-12-09 20:36:04,0.296s,PASSED
+"verifyResponseStatusCode(response, statusCode4)",,,,2022-12-09 20:36:04,2022-12-09 20:36:04,0.004s,PASSED
+"response = sendRequest(findTestObject(""User/AB004_GetProfPut""))",,,,2022-12-09 20:36:04,2022-12-09 20:36:04,0.342s,PASSED
+"verifyResponseStatusCode(response, statusCode5)",,,,2022-12-09 20:36:04,2022-12-09 20:36:04,0.003s,PASSED
+,,,,,,,
+Test Cases/TC_User_TotalUser,,,,2022-12-09 20:36:04,2022-12-09 20:36:09,4.183s,PASSED
+"response = sendRequest(findTestObject(""User/AB005_GetTotalUser""))",,,,2022-12-09 20:36:05,2022-12-09 20:36:06,0.687s,PASSED
+"verifyResponseStatusCode(response, statusCode)",,,,2022-12-09 20:36:06,2022-12-09 20:36:06,0.003s,PASSED
+"response = sendRequest(findTestObject(""User/AB006_New Request""))",,,,2022-12-09 20:36:06,2022-12-09 20:36:07,0.975s,PASSED
+"verifyResponseStatusCode(response, statusCode6)",,,,2022-12-09 20:36:07,2022-12-09 20:36:07,0.004s,PASSED
+"response = sendRequest(findTestObject(""User/AB003_GetProfPost""))",,,,2022-12-09 20:36:07,2022-12-09 20:36:08,0.806s,PASSED
+"verifyResponseStatusCode(response, statusCode4)",,,,2022-12-09 20:36:08,2022-12-09 20:36:08,0.005s,PASSED
+"response = sendRequest(findTestObject(""User/AB004_GetProfPut""))",,,,2022-12-09 20:36:08,2022-12-09 20:36:09,0.700s,PASSED
+"verifyResponseStatusCode(response, statusCode5)",,,,2022-12-09 20:36:09,2022-12-09 20:36:09,0.005s,PASSED
+,,,,,,,
+Test Cases/TC_Product_CategoryList,,,,2022-12-09 20:36:09,2022-12-09 20:36:15,5.928s,PASSED
+"response = sendRequest(findTestObject(""Product/AE015_GetCategoryList""))",,,,2022-12-09 20:36:11,2022-12-09 20:36:12,0.617s,PASSED
+"verifyResponseStatusCode(response, statusCode)",,,,2022-12-09 20:36:12,2022-12-09 20:36:12,0.004s,PASSED
+"response = sendRequest(findTestObject(""Product/AE016_GetCateListLink""))",,,,2022-12-09 20:36:12,2022-12-09 20:36:13,1.041s,PASSED
+"verifyResponseStatusCode(response, statusCode6)",,,,2022-12-09 20:36:13,2022-12-09 20:36:13,0.004s,PASSED
+"response = sendRequest(findTestObject(""Product/AE013_TotProdPost""))",,,,2022-12-09 20:36:13,2022-12-09 20:36:14,0.851s,PASSED
+"verifyResponseStatusCode(response, statusCode4)",,,,2022-12-09 20:36:14,2022-12-09 20:36:14,0.004s,PASSED
+"response = sendRequest(findTestObject(""Product/AE018_GetCateListPut""))",,,,2022-12-09 20:36:14,2022-12-09 20:36:15,0.629s,PASSED
+"verifyResponseStatusCode(response, statusCode5)",,,,2022-12-09 20:36:15,2022-12-09 20:36:15,0.004s,PASSED
+,,,,,,,
+Test Cases/TC_Product_CategoryListByProductType,,,,2022-12-09 20:36:15,2022-12-09 20:36:17,2.590s,PASSED
+"response = sendRequest(findTestObject(""Product/AE019_GetCateListByProdType""))",,,,2022-12-09 20:36:16,2022-12-09 20:36:16,0.447s,PASSED
+"verifyResponseStatusCode(response, statusCode)",,,,2022-12-09 20:36:16,2022-12-09 20:36:16,0.004s,PASSED
+"response = sendRequest(findTestObject(""Product/AE021_GetCateListByProdTypePost""))",,,,2022-12-09 20:36:16,2022-12-09 20:36:17,0.377s,PASSED
+"verifyResponseStatusCode(response, statusCode4)",,,,2022-12-09 20:36:17,2022-12-09 20:36:17,0.005s,PASSED
+"response = sendRequest(findTestObject(""Product/AE022_GetCateListByProdTypePut""))",,,,2022-12-09 20:36:17,2022-12-09 20:36:17,0.472s,PASSED
+"verifyResponseStatusCode(response, statusCode5)",,,,2022-12-09 20:36:17,2022-12-09 20:36:17,0.004s,PASSED
+,,,,,,,
+Test Cases/TC_Product_CreateProduct,,,,2022-12-09 20:36:17,2022-12-09 20:36:51,33.471s,PASSED
+"response = sendRequest(findTestObject(""Product/AE001_CreateProduct""))",,,,2022-12-09 20:36:18,2022-12-09 20:36:27,9.484s,PASSED
+"verifyResponseStatusCode(response, statusCode)",,,,2022-12-09 20:36:27,2022-12-09 20:36:27,0.003s,PASSED
+"response = sendRequest(findTestObject(""Product/AE002_CreateProductLinkBod""))",,,,2022-12-09 20:36:27,2022-12-09 20:36:50,22.366s,PASSED
+"verifyResponseStatusCode(response, statusCode7)",,,,2022-12-09 20:36:50,2022-12-09 20:36:50,0.002s,PASSED
+"response = sendRequest(findTestObject(""Product/AE003_CreateProdLink""))",,,,2022-12-09 20:36:50,2022-12-09 20:36:50,0.275s,PASSED
+"verifyResponseStatusCode(response, statusCode7)",,,,2022-12-09 20:36:50,2022-12-09 20:36:50,0.004s,PASSED
+"response = sendRequest(findTestObject(""Product/AE004_CreateProductCodeExist""))",,,,2022-12-09 20:36:50,2022-12-09 20:36:50,0.273s,PASSED
+"verifyResponseStatusCode(response, statusCode2)",,,,2022-12-09 20:36:50,2022-12-09 20:36:50,0.003s,PASSED
+"response = sendRequest(findTestObject(""Product/AE005_CreateProdPut""))",,,,2022-12-09 20:36:50,2022-12-09 20:36:51,0.275s,PASSED
+"verifyResponseStatusCode(response, statusCode4)",,,,2022-12-09 20:36:51,2022-12-09 20:36:51,0.002s,PASSED
+,,,,,,,
+Test Cases/TC_Product_GetAllProduct,,,,2022-12-09 20:36:51,2022-12-09 20:36:54,2.867s,PASSED
+"response = sendRequest(findTestObject(""Product/AE007_GetAllProduct""))",,,,2022-12-09 20:36:51,2022-12-09 20:36:52,0.664s,PASSED
+"verifyResponseStatusCode(response, statusCode)",,,,2022-12-09 20:36:52,2022-12-09 20:36:52,0.003s,PASSED
+"response = sendRequest(findTestObject(""Product/AE008_AllProdLink""))",,,,2022-12-09 20:36:52,2022-12-09 20:36:52,0.529s,PASSED
+"verifyResponseStatusCode(response, statusCode6)",,,,2022-12-09 20:36:52,2022-12-09 20:36:53,0.003s,PASSED
+"response = sendRequest(findTestObject(""Product/AE009_AllProdPost""))",,,,2022-12-09 20:36:53,2022-12-09 20:36:53,0.307s,PASSED
+"verifyResponseStatusCode(response, statusCode4)",,,,2022-12-09 20:36:53,2022-12-09 20:36:53,0.003s,PASSED
+"response = sendRequest(findTestObject(""Product/AE010_AllProdPut""))",,,,2022-12-09 20:36:53,2022-12-09 20:36:54,0.707s,PASSED
+"verifyResponseStatusCode(response, statusCode5)",,,,2022-12-09 20:36:54,2022-12-09 20:36:54,0.003s,PASSED
+,,,,,,,
+Test Cases/TC_Product_ProductListByCategory,,,,2022-12-09 20:36:54,2022-12-09 20:37:06,12.763s,PASSED
+"response = sendRequest(findTestObject(""Product/AE024_GetCateListByProdData""))",,,,2022-12-09 20:36:54,2022-12-09 20:36:55,0.457s,PASSED
+"verifyResponseStatusCode(response, statusCode)",,,,2022-12-09 20:36:55,2022-12-09 20:36:55,0.003s,PASSED
+"response = sendRequest(findTestObject(""Product/AE025_GetCateListByProdPulsa""))",,,,2022-12-09 20:36:55,2022-12-09 20:36:56,1.176s,PASSED
+"verifyResponseStatusCode(response, statusCode)",,,,2022-12-09 20:36:56,2022-12-09 20:36:56,0.003s,PASSED
+"response = sendRequest(findTestObject(""Product/AE026_GetCateListByProdLink""))",,,,2022-12-09 20:36:56,2022-12-09 20:36:56,0.281s,PASSED
+"verifyResponseStatusCode(response, statusCode6)",,,,2022-12-09 20:36:56,2022-12-09 20:36:56,0.004s,PASSED
+"response = sendRequest(findTestObject(""Product/AE027_GetCateListByProdPost""))",,,,2022-12-09 20:36:56,2022-12-09 20:37:02,5.832s,PASSED
+"verifyResponseStatusCode(response, statusCode4)",,,,2022-12-09 20:37:02,2022-12-09 20:37:02,0.005s,PASSED
+"response = sendRequest(findTestObject(""Product/AE028_GetCateListByProdPut""))",,,,2022-12-09 20:37:02,2022-12-09 20:37:06,4.363s,PASSED
+"verifyResponseStatusCode(response, statusCode5)",,,,2022-12-09 20:37:06,2022-12-09 20:37:06,0.003s,PASSED
+,,,,,,,
+Test Cases/TC_Product_ProductListByType,,,,2022-12-09 20:37:06,2022-12-09 20:37:43,36.896s,PASSED
+"response = sendRequest(findTestObject(""Product/AE029_GetProdListByTypeDaily""))",,,,2022-12-09 20:37:07,2022-12-09 20:37:07,0.285s,PASSED
+"verifyResponseStatusCode(response, statusCode)",,,,2022-12-09 20:37:07,2022-12-09 20:37:07,0.002s,PASSED
+"response = sendRequest(findTestObject(""Product/AE030_GetProdListByTypeBills""))",,,,2022-12-09 20:37:07,2022-12-09 20:37:07,0.258s,PASSED
+"verifyResponseStatusCode(response, statusCode)",,,,2022-12-09 20:37:07,2022-12-09 20:37:07,0.002s,PASSED
+"response = sendRequest(findTestObject(""Product/AE031_GetProdListByTypeLink""))",,,,2022-12-09 20:37:07,2022-12-09 20:37:08,0.532s,PASSED
+"verifyResponseStatusCode(response, statusCode6)",,,,2022-12-09 20:37:08,2022-12-09 20:37:08,0.003s,PASSED
+"response = sendRequest(findTestObject(""Product/AE032_GetProdListByTypePost""))",,,,2022-12-09 20:37:08,2022-12-09 20:37:12,4.452s,PASSED
+"verifyResponseStatusCode(response, statusCode4)",,,,2022-12-09 20:37:12,2022-12-09 20:37:12,0.002s,PASSED
+"response = sendRequest(findTestObject(""Product/AE033_GetProdListByTypePut""))",,,,2022-12-09 20:37:12,2022-12-09 20:37:43,30.859s,PASSED
+"verifyResponseStatusCode(response, statusCode5)",,,,2022-12-09 20:37:43,2022-12-09 20:37:43,0.003s,PASSED
+,,,,,,,
+Test Cases/TC_Product_TotalProduct,,,,2022-12-09 20:37:43,2022-12-09 20:38:04,20.390s,PASSED
+"response = sendRequest(findTestObject(""Product/AE011_GetTotalProduct""))",,,,2022-12-09 20:37:44,2022-12-09 20:37:56,12.388s,PASSED
+"verifyResponseStatusCode(response, statusCode)",,,,2022-12-09 20:37:56,2022-12-09 20:37:56,0.002s,PASSED
+"response = sendRequest(findTestObject(""Product/AE012_TotalProdLink""))",,,,2022-12-09 20:37:56,2022-12-09 20:38:03,6.906s,PASSED
+"verifyResponseStatusCode(response, statusCode6)",,,,2022-12-09 20:38:03,2022-12-09 20:38:03,0.002s,PASSED
+"response = sendRequest(findTestObject(""Product/AE013_TotProdPost""))",,,,2022-12-09 20:38:03,2022-12-09 20:38:03,0.207s,PASSED
+"verifyResponseStatusCode(response, statusCode4)",,,,2022-12-09 20:38:03,2022-12-09 20:38:03,0.001s,PASSED
+"response = sendRequest(findTestObject(""Product/AE014_TotProdPut""))",,,,2022-12-09 20:38:03,2022-12-09 20:38:04,0.269s,PASSED
+"verifyResponseStatusCode(response, statusCode5)",,,,2022-12-09 20:38:04,2022-12-09 20:38:04,0.002s,PASSED
+,,,,,,,
+Test Cases/TC_ProductListByType,,,,2022-12-09 20:38:04,2022-12-09 20:38:06,2.292s,PASSED
+"response = sendRequest(findTestObject(""Product/AE029_GetProdListByTypeDaily""))",,,,2022-12-09 20:38:04,2022-12-09 20:38:04,0.476s,PASSED
+"verifyResponseStatusCode(response, statusCode)",,,,2022-12-09 20:38:04,2022-12-09 20:38:04,0.002s,PASSED
+"response = sendRequest(findTestObject(""Product/AE030_GetProdListByTypeBills""))",,,,2022-12-09 20:38:04,2022-12-09 20:38:05,0.281s,PASSED
+"verifyResponseStatusCode(response, statusCode)",,,,2022-12-09 20:38:05,2022-12-09 20:38:05,0.001s,PASSED
+"response = sendRequest(findTestObject(""Product/AE031_GetProdListByTypeLink""))",,,,2022-12-09 20:38:05,2022-12-09 20:38:05,0.442s,PASSED
+"verifyResponseStatusCode(response, statusCode6)",,,,2022-12-09 20:38:05,2022-12-09 20:38:05,0.002s,PASSED
+"response = sendRequest(findTestObject(""Product/AE032_GetProdListByTypePost""))",,,,2022-12-09 20:38:05,2022-12-09 20:38:06,0.496s,PASSED
+"verifyResponseStatusCode(response, statusCode4)",,,,2022-12-09 20:38:06,2022-12-09 20:38:06,0.002s,PASSED
+"response = sendRequest(findTestObject(""Product/AE033_GetProdListByTypePut""))",,,,2022-12-09 20:38:06,2022-12-09 20:38:06,0.222s,PASSED
+"verifyResponseStatusCode(response, statusCode5)",,,,2022-12-09 20:38:06,2022-12-09 20:38:06,0.001s,PASSED
+,,,,,,,
+Test Cases/TC_Trans_AllTrans,,,,2022-12-09 20:38:06,2022-12-09 20:38:15,9.358s,PASSED
+"response = sendRequest(findTestObject(""Transaction/AC023_GetAllTrans""))",,,,2022-12-09 20:38:07,2022-12-09 20:38:08,1.088s,PASSED
+"verifyResponseStatusCode(response, statusCode)",,,,2022-12-09 20:38:08,2022-12-09 20:38:08,0.006s,PASSED
+"response = sendRequest(findTestObject(""Transaction/AC024_GetAllTransFail""))",,,,2022-12-09 20:38:08,2022-12-09 20:38:13,4.986s,PASSED
+"verifyResponseStatusCode(response, statusCode)",,,,2022-12-09 20:38:13,2022-12-09 20:38:13,0.003s,PASSED
+"response = sendRequest(findTestObject(""Transaction/AC025_GetAllTransPend""))",,,,2022-12-09 20:38:13,2022-12-09 20:38:13,0.290s,PASSED
+"verifyResponseStatusCode(response, statusCode)",,,,2022-12-09 20:38:13,2022-12-09 20:38:13,0.003s,PASSED
+"response = sendRequest(findTestObject(""Transaction/AC026_GetAllTransLink""))",,,,2022-12-09 20:38:13,2022-12-09 20:38:13,0.529s,PASSED
+"verifyResponseStatusCode(response, statusCode6)",,,,2022-12-09 20:38:13,2022-12-09 20:38:13,0.003s,PASSED
+"response = sendRequest(findTestObject(""Transaction/AC027_GetAllTransPost""))",,,,2022-12-09 20:38:13,2022-12-09 20:38:14,0.336s,PASSED
+"verifyResponseStatusCode(response, statusCode4)",,,,2022-12-09 20:38:14,2022-12-09 20:38:14,0.004s,PASSED
+"response = sendRequest(findTestObject(""Transaction/AC028_GetAllTransPut""))",,,,2022-12-09 20:38:14,2022-12-09 20:38:15,1.469s,PASSED
+"verifyResponseStatusCode(response, statusCode6)",,,,2022-12-09 20:38:15,2022-12-09 20:38:15,0.002s,PASSED
+,,,,,,,
+Test Cases/TC_Trans_LoginUser,,,,2022-12-09 20:38:15,2022-12-09 20:38:18,2.953s,PASSED
+"response = sendRequest(findTestObject(""Transaction/AC001_loginUser""))",,,,2022-12-09 20:38:16,2022-12-09 20:38:16,0.515s,PASSED
+"verifyResponseStatusCode(response, statusCode)",,,,2022-12-09 20:38:16,2022-12-09 20:38:16,0.003s,PASSED
+"response = sendRequest(findTestObject(""Transaction/AC002_LogUserLink""))",,,,2022-12-09 20:38:16,2022-12-09 20:38:17,0.471s,PASSED
+"verifyResponseStatusCode(response, statusCode6)",,,,2022-12-09 20:38:17,2022-12-09 20:38:17,0.003s,PASSED
+"response = sendRequest(findTestObject(""Transaction/AC003_LogUserPOST""))",,,,2022-12-09 20:38:17,2022-12-09 20:38:17,0.303s,PASSED
+"verifyResponseStatusCode(response, statusCode4)",,,,2022-12-09 20:38:17,2022-12-09 20:38:17,0.003s,PASSED
+"response = sendRequest(findTestObject(""Transaction/AC004_LogUserPut""))",,,,2022-12-09 20:38:17,2022-12-09 20:38:18,1.127s,PASSED
+"verifyResponseStatusCode(response, statusCode5)",,,,2022-12-09 20:38:18,2022-12-09 20:38:18,0.002s,PASSED
+,,,,,,,
+Test Cases/TC_Trans_RevTrans,,,,2022-12-09 20:38:18,2022-12-09 20:38:24,6.245s,PASSED
+"response = sendRequest(findTestObject(""Transaction/AC037_RevTrans""))",,,,2022-12-09 20:38:19,2022-12-09 20:38:22,3.083s,PASSED
+"verifyResponseStatusCode(response, statusCode)",,,,2022-12-09 20:38:22,2022-12-09 20:38:22,0.004s,PASSED
+"response = sendRequest(findTestObject(""Transaction/AC038_RevTransLinkBod""))",,,,2022-12-09 20:38:22,2022-12-09 20:38:22,0.252s,PASSED
+"verifyResponseStatusCode(response, statusCode4)",,,,2022-12-09 20:38:22,2022-12-09 20:38:22,0.005s,PASSED
+"response = sendRequest(findTestObject(""Transaction/AC039_RevTransLink""))",,,,2022-12-09 20:38:22,2022-12-09 20:38:22,0.318s,PASSED
+"verifyResponseStatusCode(response, statusCode4)",,,,2022-12-09 20:38:22,2022-12-09 20:38:22,0.003s,PASSED
+"response = sendRequest(findTestObject(""Transaction/AC040_RevTransBod""))",,,,2022-12-09 20:38:22,2022-12-09 20:38:23,0.558s,PASSED
+"verifyResponseStatusCode(response, statusCode5)",,,,2022-12-09 20:38:23,2022-12-09 20:38:23,0.002s,PASSED
+"response = sendRequest(findTestObject(""Transaction/AC041_RevTransGet""))",,,,2022-12-09 20:38:23,2022-12-09 20:38:24,0.910s,PASSED
+"verifyResponseStatusCode(response, statusCode4)",,,,2022-12-09 20:38:24,2022-12-09 20:38:24,0.003s,PASSED
+"response = sendRequest(findTestObject(""Transaction/AC042_RevTransPut""))",,,,2022-12-09 20:38:24,2022-12-09 20:38:24,0.550s,PASSED
+"verifyResponseStatusCode(response, statusCode6)",,,,2022-12-09 20:38:24,2022-12-09 20:38:24,0.003s,PASSED
+,,,,,,,
+Test Cases/TC_Trans_SubTrans,,,,2022-12-09 20:38:25,2022-12-09 20:38:38,13.709s,PASSED
+"response = sendRequest(findTestObject(""Transaction/AC031_SubTrans""))",,,,2022-12-09 20:38:26,2022-12-09 20:38:29,3.487s,PASSED
+"verifyResponseStatusCode(response, statusCode)",,,,2022-12-09 20:38:29,2022-12-09 20:38:29,0.003s,PASSED
+"response = sendRequest(findTestObject(""Transaction/AC032_SubTransLinkBod""))",,,,2022-12-09 20:38:29,2022-12-09 20:38:30,0.567s,PASSED
+"verifyResponseStatusCode(response, statusCode4)",,,,2022-12-09 20:38:30,2022-12-09 20:38:30,0.003s,PASSED
+"response = sendRequest(findTestObject(""Transaction/AC033_SubTransLink""))",,,,2022-12-09 20:38:30,2022-12-09 20:38:30,0.342s,PASSED
+"verifyResponseStatusCode(response, statusCode4)",,,,2022-12-09 20:38:30,2022-12-09 20:38:30,0.002s,PASSED
+"response = sendRequest(findTestObject(""Transaction/AC034_SubTransBod""))",,,,2022-12-09 20:38:30,2022-12-09 20:38:35,5.095s,PASSED
+"verifyResponseStatusCode(response, statusCode4)",,,,2022-12-09 20:38:35,2022-12-09 20:38:35,0.002s,PASSED
+"response = sendRequest(findTestObject(""Transaction/AC035_SubTransPut""))",,,,2022-12-09 20:38:35,2022-12-09 20:38:37,2.062s,PASSED
+"verifyResponseStatusCode(response, statusCode6)",,,,2022-12-09 20:38:37,2022-12-09 20:38:37,0.001s,PASSED
+"response = sendRequest(findTestObject(""Transaction/AC036_SubTransGet""))",,,,2022-12-09 20:38:37,2022-12-09 20:38:38,0.871s,PASSED
+"verifyResponseStatusCode(response, statusCode4)",,,,2022-12-09 20:38:38,2022-12-09 20:38:38,0.003s,PASSED
+,,,,,,,
+Test Cases/TC_Trans_TotalTrans,,,,2022-12-09 20:38:38,2022-12-09 20:38:40,1.358s,PASSED
+"response = sendRequest(findTestObject(""Transaction/AC029_TotalTrans""))",,,,2022-12-09 20:38:39,2022-12-09 20:38:39,0.458s,PASSED
+"verifyResponseStatusCode(response, statusCode)",,,,2022-12-09 20:38:39,2022-12-09 20:38:39,0.003s,PASSED
+"response = sendRequest(findTestObject(""Transaction/AC030_TotalTransLink""))",,,,2022-12-09 20:38:39,2022-12-09 20:38:40,0.405s,PASSED
+"verifyResponseStatusCode(response, statusCode7)",,,,2022-12-09 20:38:40,2022-12-09 20:38:40,0.002s,PASSED
+,,,,,,,
+Test Cases/TC_Trans_TransHist,,,,2022-12-09 20:38:40,2022-12-09 20:38:48,8.248s,PASSED
+"response = sendRequest(findTestObject(""Transaction/AC009_TransactionHist""))",,,,2022-12-09 20:38:40,2022-12-09 20:38:41,0.710s,PASSED
+"verifyResponseStatusCode(response, statusCode)",,,,2022-12-09 20:38:41,2022-12-09 20:38:41,0.004s,PASSED
+"response = sendRequest(findTestObject(""Transaction/AC010_TransHistLink""))",,,,2022-12-09 20:38:41,2022-12-09 20:38:47,6.177s,PASSED
+"verifyResponseStatusCode(response, statusCode4)",,,,2022-12-09 20:38:47,2022-12-09 20:38:47,0.004s,PASSED
+"response = sendRequest(findTestObject(""Transaction/AC011_TransHistPost""))",,,,2022-12-09 20:38:47,2022-12-09 20:38:47,0.355s,PASSED
+"verifyResponseStatusCode(response, statusCode4)",,,,2022-12-09 20:38:47,2022-12-09 20:38:47,0.005s,PASSED
+"response = sendRequest(findTestObject(""Transaction/AC012_TransHistPut""))",,,,2022-12-09 20:38:47,2022-12-09 20:38:48,0.433s,PASSED
+"verifyResponseStatusCode(response, statusCode6)",,,,2022-12-09 20:38:48,2022-12-09 20:38:48,0.005s,PASSED
+,,,,,,,
+Test Cases/TC_Trans_TransHistID,,,,2022-12-09 20:38:48,2022-12-09 20:38:54,6.351s,PASSED
+"response = sendRequest(findTestObject(""Transaction/AC013_TransID""))",,,,2022-12-09 20:38:49,2022-12-09 20:38:51,2.135s,PASSED
+"verifyResponseStatusCode(response, statusCode)",,,,2022-12-09 20:38:51,2022-12-09 20:38:51,0.004s,PASSED
+"response = sendRequest(findTestObject(""Transaction/AC014_TransHistIDWrong""))",,,,2022-12-09 20:38:51,2022-12-09 20:38:53,2.553s,PASSED
+"verifyResponseStatusCode(response, statusCode6)",,,,2022-12-09 20:38:53,2022-12-09 20:38:53,0.003s,PASSED
+"response = sendRequest(findTestObject(""Transaction/AC015_TransHistIDPost""))",,,,2022-12-09 20:38:53,2022-12-09 20:38:54,0.486s,PASSED
+"verifyResponseStatusCode(response, statusCode4)",,,,2022-12-09 20:38:54,2022-12-09 20:38:54,0.005s,PASSED
+"response = sendRequest(findTestObject(""Transaction/AC016_TransHistIDPut""))",,,,2022-12-09 20:38:54,2022-12-09 20:38:54,0.365s,PASSED
+"verifyResponseStatusCode(response, statusCode6)",,,,2022-12-09 20:38:54,2022-12-09 20:38:54,0.004s,PASSED
+,,,,,,,
+Test Cases/TC_Trans_UpTransStat,,,,2022-12-09 20:38:54,2022-12-09 20:38:56,1.906s,FAILED
+"response = sendRequest(findTestObject(""Transaction/AC017_UpdateTransStat""))",,,,2022-12-09 20:38:55,2022-12-09 20:38:55,0.390s,PASSED
+"verifyResponseStatusCode(response, statusCode)",,,,2022-12-09 20:38:55,2022-12-09 20:38:55,0.005s,PASSED
+"response = sendRequest(findTestObject(""Transaction/AC018_UpTransStatLinkBod""))",,,,2022-12-09 20:38:55,2022-12-09 20:38:56,0.721s,FAILED
+,,,,,,,
+Test Cases/TC_TransLoginAdmin,,,,2022-12-09 20:38:56,2022-12-09 20:38:59,2.657s,PASSED
+"response = sendRequest(findTestObject(""Transaction/AC005_loginAdmin""))",,,,2022-12-09 20:38:57,2022-12-09 20:38:57,0.339s,PASSED
+"verifyResponseStatusCode(response, statusCode)",,,,2022-12-09 20:38:57,2022-12-09 20:38:57,0.004s,PASSED
+"response = sendRequest(findTestObject(""Transaction/AC006_LogAdmLink""))",,,,2022-12-09 20:38:57,2022-12-09 20:38:58,0.344s,PASSED
+"verifyResponseStatusCode(response, statusCode6)",,,,2022-12-09 20:38:58,2022-12-09 20:38:58,0.002s,PASSED
+"response = sendRequest(findTestObject(""Transaction/AC007_LogAdmPOST""))",,,,2022-12-09 20:38:58,2022-12-09 20:38:58,0.582s,PASSED
+"verifyResponseStatusCode(response, statusCode4)",,,,2022-12-09 20:38:58,2022-12-09 20:38:58,0.003s,PASSED
+"response = sendRequest(findTestObject(""Transaction/AC008_LogAdPut""))",,,,2022-12-09 20:38:58,2022-12-09 20:38:59,0.612s,PASSED
+"verifyResponseStatusCode(response, statusCode5)",,,,2022-12-09 20:38:59,2022-12-09 20:38:59,0.003s,PASSED
